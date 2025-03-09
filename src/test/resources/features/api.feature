@@ -1,3 +1,5 @@
+
+@API @Regression
 Feature: API Tests on Reqres
 
   Scenario: Create a new user via API
