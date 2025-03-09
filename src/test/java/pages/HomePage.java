@@ -2,30 +2,28 @@ package pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+import utils.JsonReader;
 
 public class HomePage {
     private static final Logger log = LogManager.getLogger(HomePage.class);
     private WebDriver driver;
-    private String homePageUrl = "https://www.amazon.com";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 
     public void openHomePage() {
+        log.info("Opening Amazon homepage...");
+        String homePageUrl = JsonReader.getUrl("amazonUrl");
         log.info("Navigating to Amazon homepage: {}", homePageUrl);
         driver.get(homePageUrl);
     }
 
-    public boolean isHomePageDisplayed() {
-        String actualUrl = driver.getCurrentUrl();
-        log.info("Checking if Amazon homepage is displayed...");
-        log.info("Expected URL: {}", homePageUrl);
-        log.info("Actual URL: {}", actualUrl);
-        Assert.assertEquals(actualUrl, homePageUrl, "Amazon homepage is not displayed!");
-        log.info("Amazon homepage is verified successfully.");
-        return true;
+    public void searchProduct(String productName) {
+        log.info("Searching for product: {}", productName);
+        driver.findElement(By.xpath(JsonReader.getLocator("HomePage", "searchBox"))).sendKeys(productName);
+        driver.findElement(By.xpath(JsonReader.getLocator("HomePage", "searchButton"))).click();
     }
 }

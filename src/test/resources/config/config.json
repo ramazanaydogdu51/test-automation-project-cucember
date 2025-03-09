@@ -1,3 +1,7 @@
 {
-  "amazonUrl": "https://www.amazon.com"
+  "amazonUrl": "https://www.amazon.com.tr",
+  "credentials": {
+    "username": "your-email@example.com",
+    "password": "your-secure-password"
+  }
 }
