@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.144 s <<< FAILURE! - in runners.TestRunner
+runners.TestRunner.runScenario["Create a new user via API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: Range [0, 0 + -1) out of bounds for length 512
+
+runners.TestRunner.runScenario["Validate delayed response from API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
+java.io.EOFException: Unexpected end of ZLIB input stream
+
+runners.TestRunner.runScenario["Update an existing user via API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
+java.io.EOFException: Unexpected end of ZLIB input stream
+
+runners.TestRunner.runScenario["Open Amazon Home Page", "Amazon Web Testing"](5)  Time elapsed: 4.601 s  <<< FAILURE!
+java.lang.AssertionError: Amazon homepage is not displayed! expected [https://www.amazon.com] but found [https://www.amazon.com/]
+
