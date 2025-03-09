@@ -1,18 +1,18 @@
 package utils;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeMethod
+    @Before
     public void setUp() {
         driver = DriverManager.getDriver();
     }
 
-    @AfterMethod
+    @After
     public void tearDown() {
         DriverManager.quitDriver();
     }

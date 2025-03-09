@@ -7,11 +7,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.HomePage;
+import utils.BaseTest;
 import utils.DriverManager;
 import utils.JsonReader;
 import utils.WaitUtils;
 
-public class AmazonSteps {
+public class AmazonSteps  {
     private static final Logger log = LogManager.getLogger(AmazonSteps.class);
     private WebDriver driver = DriverManager.getDriver();
     private HomePage homePage = new HomePage(driver);

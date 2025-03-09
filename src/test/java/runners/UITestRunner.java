@@ -16,4 +16,5 @@ public class UITestRunner extends AbstractTestNGCucumberTests {
     public Object[][] scenarios() {
         return super.scenarios();
     }
+
 }
