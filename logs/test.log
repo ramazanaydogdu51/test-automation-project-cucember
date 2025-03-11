@@ -107,3 +107,835 @@ Session ID: eda089bcdd70bdb576206886cb943ae5
 2025-03-12 00:37:21 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
 2025-03-12 00:37:22 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
 2025-03-12 00:37:22 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 00:44:55 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:44:55 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 00:45:01 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 00:45:01 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 00:45:01 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 00:45:03 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 00:45:03 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 00:45:04 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 00:45:04 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 00:45:04 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 00:45:04 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 00:45:04 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 00:45:04 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 00:45:06 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 00:45:06 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 00:45:06 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f4396c64-0829-4d3e-a9ab-1f4c38e7bc85, findChildElement {id=989d1780-622d-4486-acc3-4f6ca5613903, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26460, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f4396c64-0829-4d3e-a9ab-1f4c38e7bc85
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 00:45:06 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f4396c64-0829-4d3e-a9ab-1f4c38e7bc85, findChildElement {id=c7b4a8a7-8678-4446-a64b-6b0d218b2909, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26460, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f4396c64-0829-4d3e-a9ab-1f4c38e7bc85
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:45:06 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:45:07 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:45:07 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 00:51:46 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:51:46 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 00:51:51 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 00:51:52 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 00:51:52 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 00:51:53 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 00:51:53 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 00:51:54 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 00:51:54 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 00:51:54 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 00:51:54 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 00:51:54 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 00:51:54 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 00:51:56 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 00:51:56 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 00:51:56 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d0c9ace-f045-498b-b597-412676e9957e, findChildElement {id=e3eafa86-90c4-4745-811f-71c0b2eea415, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11192, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3d0c9ace-f045-498b-b597-412676e9957e
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 00:51:56 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d0c9ace-f045-498b-b597-412676e9957e, findChildElement {id=5da14607-2ef8-4b27-9f0d-d7ff337d8d0a, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11192, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3d0c9ace-f045-498b-b597-412676e9957e
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:51:56 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:51:57 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 00:51:57 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 00:52:07 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:52:07 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:53:47 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:53:47 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:55:18 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:55:18 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:55:31 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:55:31 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:56:34 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:56:34 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:57:56 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:57:56 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:58:31 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:58:31 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 00:59:41 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 00:59:41 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:00:00 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:00:00 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:03:02 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:03:02 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:03:04 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:03:04 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:03:04 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:03:05 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:03:05 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:03:11 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:03:11 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:03:11 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:03:11 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:03:11 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:03:11 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:03:14 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:03:14 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - İncelenen ürün: 15.6" IPS FHD-Laptop, 16GB RAM 1TB SSD Intel 12 Gen 4 Core N100 (Beat to i3 1115G4 Up to 3.4GHz) Computer, Laptops with Backlit Keyboard Fingerprint laptops for Student and Home WiFi 6 BT 5.2
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: 15.6" IPS FHD-Laptop, 16GB RAM 1TB SSD Intel 12 Gen 4 Core N100 (Beat to i3 1115G4 Up to 3.4GHz) Computer, Laptops with Backlit Keyboard Fingerprint laptops for Student and Home WiFi 6 BT 5.2
+2025-03-12 01:03:14 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8ebf5c7d1aecf88a94e1a555e33276d, findChildElement {id=f.D366CDDF7F9E543533BB2E3138D8FC45.d.34A0044E5B864A294A887F3C4F32E39E.e.464, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\51ram\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54337/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8ebf5c7d1aecf88a94e1a555e33276d
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - İncelenen ürün: ACEMAGIC 15.6 Inch Laptop with Windows 11, 16GB DDR4 RAM 512GB M.2 2280 SSD,Intel N N97 Quad-Core Processor, WiFi,Bluetooth,Webcam,Portable Laptops Computer for Office Student Business Entertainment
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: ACEMAGIC 15.6 Inch Laptop with Windows 11, 16GB DDR4 RAM 512GB M.2 2280 SSD,Intel N N97 Quad-Core Processor, WiFi,Bluetooth,Webcam,Portable Laptops Computer for Office Student Business Entertainment
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:03:14 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:03:14 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:05:05 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:05:06 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:05:07 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:05:07 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:05:07 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:05:08 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:05:09 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:05:09 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:05:09 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:05:09 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:05:09 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:05:09 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:05:09 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:05:09 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:05:10 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:05:10 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:05:10 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:05:10 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:05:12 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:05:12 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:05:12 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:05:12 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:05:12 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:05:12 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:05:57 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:05:57 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:05:59 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:05:59 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:05:59 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:06:00 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:06:00 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:06:01 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:06:01 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:06:02 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:06:02 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:06:02 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:06:02 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:06:04 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:06:04 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:06:04 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:06:04 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:06:05 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:06:05 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:08:42 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:08:42 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:08:44 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:08:44 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:08:44 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:08:46 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:08:46 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:08:46 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:08:46 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:08:47 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:08:47 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:08:47 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:08:47 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:08:49 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:08:49 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:08:50 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:08:50 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:08:50 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:08:50 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:08:50 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:08:50 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:08:59 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:08:59 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:09:25 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:09:25 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:11:26 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:11:26 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:11:42 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:11:42 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:16:20 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:16:20 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:16:30 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:16:30 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:16:32 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:16:32 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:16:32 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:16:33 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:16:33 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:16:39 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:16:43 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:16:43 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:16:45 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:16:45 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:16:45 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:16:46 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:16:46 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:16:47 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:16:47 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:16:47 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:16:47 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:16:47 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:16:47 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:16:51 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:16:51 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:16:52 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:16:52 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:16:52 [main] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:16:52 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:17:07 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:17:07 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:17:08 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:17:08 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:17:08 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:17:10 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:17:10 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:17:10 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:17:10 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:17:10 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:17:13 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:17:13 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:17:13 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:17:13 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:17:13 [main] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:17:13 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:17:58 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:17:58 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:18:00 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:18:00 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:18:00 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:18:01 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:18:01 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:18:08 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:18:08 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:18:08 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:18:09 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:18:09 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:18:09 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:18:11 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:18:11 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:18:11 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e79c2dfdc5058e42d7344c45f50d9ec, findChildElement {id=f.4B3F13F0E5D5297E9B24B5666723D593.d.36984AED6FD14EC16E0F9EF60D62CEB4.e.452, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55453/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e79c2dfdc5058e42d7344c45f50d9ec
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:18:11 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e79c2dfdc5058e42d7344c45f50d9ec, findChildElement {id=f.4B3F13F0E5D5297E9B24B5666723D593.d.36984AED6FD14EC16E0F9EF60D62CEB4.e.453, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55453/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e79c2dfdc5058e42d7344c45f50d9ec
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:11 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:11 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:18:42 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:18:42 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:18:43 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:18:43 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:18:43 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:18:44 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:18:44 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:18:44 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:18:44 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:18:45 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:18:45 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:18:45 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:18:45 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:18:47 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:18:47 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:18:47 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9f9c60a01ba59ddf67de3e87a3fd14d, findChildElement {id=f.49AAB908141FD31F394A3C3FB4A625D1.d.690A0842ED595FC03698ABF2BCC01079.e.451, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55546/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e9f9c60a01ba59ddf67de3e87a3fd14d
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:18:47 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9f9c60a01ba59ddf67de3e87a3fd14d, findChildElement {id=f.49AAB908141FD31F394A3C3FB4A625D1.d.690A0842ED595FC03698ABF2BCC01079.e.452, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55546/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e9f9c60a01ba59ddf67de3e87a3fd14d
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:47 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:18:47 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:19:03 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:19:03 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:19:04 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:19:04 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:19:04 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:19:06 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:19:06 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:19:06 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:19:06 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:19:06 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:19:08 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:19:08 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:19:09 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:19:09 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:19:09 [main] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:19:09 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:32:55 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:32:55 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:33:08 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:33:08 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:33:56 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:33:56 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:34:18 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:34:18 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:34:19 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:34:19 [main] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:34:21 [main] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"462","createdAt":"2025-03-11T22:34:21.338Z"}
+2025-03-12 01:34:21 [main] INFO  ApiSteps - Created User ID: 462
+2025-03-12 01:34:21 [main] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:34:21 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:34:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:34:32 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:34:34 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:34:34 [main] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:34:36 [main] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"510","createdAt":"2025-03-11T22:34:35.719Z"}
+2025-03-12 01:34:36 [main] INFO  ApiSteps - Created User ID: 510
+2025-03-12 01:34:36 [main] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:34:36 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:34:58 [TestNG-PoolService-2] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:34:58 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:34:58 [TestNG-PoolService-4] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:34:58 [TestNG-PoolService-3] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:35:00 [TestNG-PoolService-3] INFO  ApiSteps - Response status: 204
+2025-03-12 01:35:00 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 200
+2025-03-12 01:35:00 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"195","createdAt":"2025-03-11T22:34:59.813Z"}
+2025-03-12 01:35:00 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:34:59.818Z"}
+2025-03-12 01:35:00 [TestNG-PoolService-4] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"827","createdAt":"2025-03-11T22:34:59.815Z"}
+2025-03-12 01:35:00 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 01:35:00 [TestNG-PoolService-2] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 01:35:00 [TestNG-PoolService-2] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 01:35:00 [TestNG-PoolService-2] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 01:35:35 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:35:35 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:35:37 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:35:37 [main] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:35:38 [main] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"330","createdAt":"2025-03-11T22:35:38.455Z"}
+2025-03-12 01:35:38 [main] INFO  ApiSteps - Created User ID: 330
+2025-03-12 01:35:38 [main] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:35:38 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:35:38 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:35:39 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:35:39.341Z"}
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 01:35:39 [main] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 01:35:39 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:35:39 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:35:40 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:35:40 [main] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:35:40 [main] INFO  ApiSteps - Response status: 204
+2025-03-12 01:35:40 [main] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 01:35:40 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:35:40 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:35:41 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:35:41 [main] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:35:41 [main] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"664","createdAt":"2025-03-11T22:35:41.103Z"}
+2025-03-12 01:35:41 [main] INFO  ApiSteps - Created User ID: 664
+2025-03-12 01:35:41 [main] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 01:35:46 [main] INFO  ApiSteps - Response: {}
+2025-03-12 01:35:46 [main] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 01:35:46 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:36:27 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:36:28 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"79","createdAt":"2025-03-11T22:36:28.553Z"}
+2025-03-12 01:36:28 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 79
+2025-03-12 01:36:28 [TestNG-PoolService-1] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:39:21 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:39:22 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"258","createdAt":"2025-03-11T22:39:22.711Z"}
+2025-03-12 01:40:37 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:40:39 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"712","createdAt":"2025-03-11T22:40:39.316Z"}
+2025-03-12 01:48:08 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:48:08 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:48:08 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:48:08 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:48:09 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:48:09 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:48:09 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:48:09 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:48:09 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 01:48:09 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"605","createdAt":"2025-03-11T22:48:09.543Z"}
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:48:11 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:48:14 [TestNG-PoolService-1] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4923aa9ebaba901d058c7b848a09867, findChildElement {id=f.8F874EE0DD1355BE56AE292B2973E9BC.d.594329C943F2E7D48970EDA9BF415937.e.492, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\51ram\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56134/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4923aa9ebaba901d058c7b848a09867
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 01:48:14 [TestNG-PoolService-1] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.addToCart']"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4923aa9ebaba901d058c7b848a09867, findChildElement {id=f.8F874EE0DD1355BE56AE292B2973E9BC.d.594329C943F2E7D48970EDA9BF415937.e.493, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\51ram\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56134/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4923aa9ebaba901d058c7b848a09867
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:48:14 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:48:34 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:48:34 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:48:34 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:48:34 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:48:35 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:48:36 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:48:36 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:48:36 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:48:36 [TestNG-PoolService-5] INFO  ApiSteps - Response: 
+2025-03-12 01:48:36 [TestNG-PoolService-3] INFO  ApiSteps - Response: 
+2025-03-12 01:48:36 [TestNG-PoolService-2] INFO  ApiSteps - Response: 
+2025-03-12 01:48:36 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 204
+2025-03-12 01:48:36 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:48:37 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:48:38 [TestNG-PoolService-1] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:48:38 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:48:38 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:48:38 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:48:40 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:48:40 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:48:40 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:48:41 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:48:41 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 01:50:03 [TestNG-PoolService-1] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:50:03 [TestNG-PoolService-1] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:50:05 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:50:05 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 200
+2025-03-12 01:50:05 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"36","createdAt":"2025-03-11T22:50:04.955Z"}
+2025-03-12 01:50:05 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:50:04.957Z"}
+2025-03-12 01:50:05 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"595","createdAt":"2025-03-11T22:50:04.949Z"}
+2025-03-12 01:50:05 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 01:50:05 [TestNG-PoolService-3] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 01:50:05 [TestNG-PoolService-3] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 01:50:05 [TestNG-PoolService-3] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 01:50:42 [TestNG-PoolService-1] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:50:42 [TestNG-PoolService-1] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:50:44 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:50:44 [TestNG-PoolService-2] INFO  ApiSteps - Response: 
+2025-03-12 01:50:44 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 200
+2025-03-12 01:50:44 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"324","createdAt":"2025-03-11T22:50:43.996Z"}
+2025-03-12 01:50:44 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:50:44.014Z"}
+2025-03-12 01:50:44 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 01:50:44 [TestNG-PoolService-3] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 01:50:44 [TestNG-PoolService-3] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 01:50:44 [TestNG-PoolService-3] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 01:50:44 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:50:44 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:50:44 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:50:45 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:50:56 [TestNG-PoolService-1] ERROR CommonLib - ❌ Element tıklanamadı: By.xpath: //input[@id='twotabsearchtextbox'] - Hata: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56377/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a4f68a2bbb3105b6598b0799e6ed96
+2025-03-12 01:51:09 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:51:09 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:51:09 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:51:09 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:51:10 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:51:10 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 200
+2025-03-12 01:51:10 [TestNG-PoolService-2] INFO  ApiSteps - Response: 
+2025-03-12 01:51:10 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:51:10.546Z"}
+2025-03-12 01:51:10 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"959","createdAt":"2025-03-11T22:51:10.539Z"}
+2025-03-12 01:51:10 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 01:51:10 [TestNG-PoolService-3] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 01:51:10 [TestNG-PoolService-3] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 01:51:10 [TestNG-PoolService-3] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 01:51:26 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:51:26 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:51:26 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:51:26 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:51:28 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:51:28 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 201
+2025-03-12 01:51:28 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"492","createdAt":"2025-03-11T22:51:27.917Z"}
+2025-03-12 01:51:28 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"739","createdAt":"2025-03-11T22:51:27.904Z"}
+2025-03-12 01:51:28 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:51:27.908Z"}
+2025-03-12 01:51:28 [TestNG-PoolService-2] INFO  ApiSteps - Created User ID: 492
+2025-03-12 01:51:28 [TestNG-PoolService-5] INFO  ApiSteps - Created User ID: 492
+2025-03-12 01:51:28 [TestNG-PoolService-5] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 01:51:28 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 201
+2025-03-12 01:51:28 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:51:33 [TestNG-PoolService-5] INFO  ApiSteps - Response: {}
+2025-03-12 01:51:33 [TestNG-PoolService-5] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 01:52:47 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:52:47 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:52:47 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:52:47 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:52:48 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:52:48 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 201
+2025-03-12 01:52:48 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:52:48.431Z"}
+2025-03-12 01:52:48 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"684","createdAt":"2025-03-11T22:52:48.442Z"}
+2025-03-12 01:52:48 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"275","createdAt":"2025-03-11T22:52:48.432Z"}
+2025-03-12 01:52:48 [TestNG-PoolService-2] INFO  ApiSteps - Created User ID: 684
+2025-03-12 01:52:48 [TestNG-PoolService-5] INFO  ApiSteps - Created User ID: 684
+2025-03-12 01:52:48 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 201
+2025-03-12 01:52:48 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:52:48 [TestNG-PoolService-5] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 01:52:53 [TestNG-PoolService-5] INFO  ApiSteps - Response: {}
+2025-03-12 01:52:53 [TestNG-PoolService-5] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 01:53:09 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:53:09 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:53:57 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:53:58 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:54:52 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:54:52 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:54:54 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:54:54 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:54:54 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:54:55 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:54:55 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:54:56 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:54:56 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:54:56 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:54:56 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:54:56 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:54:56 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:55:00 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:55:00 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:55:00 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:55:00 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:55:00 [main] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:55:00 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:55:18 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:55:18 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:55:20 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:55:20 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:55:20 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:55:20 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:55:31 [main] ERROR CommonLib - ❌ Element tıklanamadı: By.xpath: //input[@id='twotabsearchtextbox'] - Hata: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:/Users/51ram/AppData/Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af8720a7c67ce729562c8ad4caca66da
+2025-03-12 01:55:31 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 01:55:44 [TestNG-PoolService-1] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:55:44 [TestNG-PoolService-1] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:55:46 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:55:46 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 201
+2025-03-12 01:55:46 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"604","createdAt":"2025-03-11T22:55:46.018Z"}
+2025-03-12 01:55:46 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"723","createdAt":"2025-03-11T22:55:46.021Z"}
+2025-03-12 01:55:46 [TestNG-PoolService-5] INFO  ApiSteps - Created User ID: 604
+2025-03-12 01:55:46 [TestNG-PoolService-5] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 01:55:46 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-11T22:55:46.024Z"}
+2025-03-12 01:55:46 [TestNG-PoolService-2] INFO  ApiSteps - Created User ID: 604
+2025-03-12 01:55:46 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 201
+2025-03-12 01:55:46 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 01:55:46 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:55:46 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:55:46 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:55:48 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:55:51 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:55:51 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:55:51 [TestNG-PoolService-5] INFO  ApiSteps - Response: {}
+2025-03-12 01:55:51 [TestNG-PoolService-5] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 01:55:51 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:55:51 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:55:51 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:56:43 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 01:56:43 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 01:56:43 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 01:56:43 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 01:56:44 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:56:44 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:56:44 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:56:44 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 01:56:45 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 01:56:45 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"298","createdAt":"2025-03-11T22:56:44.770Z"}
+2025-03-12 01:56:45 [TestNG-PoolService-3] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"84","createdAt":"2025-03-11T22:56:44.771Z"}
+2025-03-12 01:56:45 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"84","createdAt":"2025-03-11T22:56:44.771Z"}
+2025-03-12 01:56:45 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 204
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:56:45 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:56:46 [TestNG-PoolService-1] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:56:46 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:56:46 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:56:46 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:56:48 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:56:48 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:56:48 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:56:48 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:56:48 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:57:11 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:57:11 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 01:57:13 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 01:57:13 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 01:57:13 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 01:57:14 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 01:57:14 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:57:15 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 01:57:15 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:57:15 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 01:57:15 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 01:57:15 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 01:57:15 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:57:17 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 01:57:17 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 01:57:17 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:57:17 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:57:17 [main] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 01:59:24 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 01:59:24 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 02:02:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 02:02:32 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 02:02:56 [TestNG-PoolService-1] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 02:02:56 [TestNG-PoolService-1] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 02:02:58 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 02:02:58 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 02:02:58 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"567","createdAt":"2025-03-11T23:02:57.774Z"}
+2025-03-12 02:02:58 [TestNG-PoolService-2] INFO  ApiSteps - Response: 
+2025-03-12 02:02:58 [TestNG-PoolService-3] INFO  ApiSteps - Response: 
+2025-03-12 02:02:58 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 204
+2025-03-12 02:03:06 [TestNG-PoolService-2] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 02:03:06 [TestNG-PoolService-3] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 02:03:06 [TestNG-PoolService-5] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 02:03:06 [TestNG-PoolService-4] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 02:03:08 [TestNG-PoolService-1] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 02:03:08 [TestNG-PoolService-1] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 02:03:08 [TestNG-PoolService-1] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 02:03:08 [TestNG-PoolService-4] INFO  ApiSteps - Response status: 204
+2025-03-12 02:03:08 [TestNG-PoolService-3] INFO  ApiSteps - Response: 
+2025-03-12 02:03:08 [TestNG-PoolService-4] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 201
+2025-03-12 02:03:08 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 201
+2025-03-12 02:03:08 [TestNG-PoolService-5] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"624","createdAt":"2025-03-11T23:03:08.225Z"}
+2025-03-12 02:03:08 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"956","createdAt":"2025-03-11T23:03:08.207Z"}
+2025-03-12 02:03:08 [TestNG-PoolService-5] INFO  ApiSteps - Created User ID: 624
+2025-03-12 02:03:08 [TestNG-PoolService-2] INFO  ApiSteps - Created User ID: 624
+2025-03-12 02:03:08 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 02:03:08 [TestNG-PoolService-5] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 02:03:09 [TestNG-PoolService-1] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 02:03:13 [TestNG-PoolService-5] INFO  ApiSteps - Response: {}
+2025-03-12 02:03:13 [TestNG-PoolService-5] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 02:03:14 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray

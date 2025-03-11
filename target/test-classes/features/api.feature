@@ -1,7 +1,7 @@
 
 @API @Regression
 Feature: API Tests on Reqres
-
+  @POST
   Scenario: Create a new user via API
     Given I send a POST request to create a user with name "John" and job "Tester"
     Then the response status code should be 201

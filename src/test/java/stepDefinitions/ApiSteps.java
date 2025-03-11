@@ -35,9 +35,11 @@ public class ApiSteps {
 
         Assert.assertEquals(response.getStatusCode(), 201);
 
+
         JsonObject jsonResponse = JsonParser.parseString(response.getBody().asString()).getAsJsonObject();
         userId = jsonResponse.get("id").getAsString();
         log.info("Created User ID: {}", userId);
+
     }
 
     @Then("the response status code should be {int}")
