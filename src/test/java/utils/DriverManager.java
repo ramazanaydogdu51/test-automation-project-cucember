@@ -37,7 +37,7 @@ public class DriverManager {
     public static synchronized void quitDriver() {
         if (driver != null) {
             log.info("Closing WebDriver...");
-            driver.quit();
+//            driver.quit();
             driver = null;
         }
     }

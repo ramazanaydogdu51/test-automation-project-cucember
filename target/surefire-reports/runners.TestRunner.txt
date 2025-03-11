@@ -1,16 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.144 s <<< FAILURE! - in runners.TestRunner
-runners.TestRunner.runScenario["Create a new user via API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
-java.lang.ArrayIndexOutOfBoundsException: Range [0, 0 + -1) out of bounds for length 512
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 15.478 s <<< FAILURE! - in runners.TestRunner
+runners.TestRunner.runScenario["Open Amazon Home Page", "Amazon Web Testing"](1)  Time elapsed: 6.966 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=134.0.6998.37)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde4f9646387c406622dc592d164ff86, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\51ram\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55448/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fde4f9646387c406622dc592d164ff86
 
-runners.TestRunner.runScenario["Validate delayed response from API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
-java.io.EOFException: Unexpected end of ZLIB input stream
+runners.TestRunner.runScenario["Create a new user via API", "API Tests on Reqres"](2)  Time elapsed: 1.358 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I should see the created user's ID' is undefined.
+You can implement this step using the snippet(s) below:
 
-runners.TestRunner.runScenario["Update an existing user via API", "API Tests on Reqres"](4)  Time elapsed: 4.221 s  <<< FAILURE!
-java.io.EOFException: Unexpected end of ZLIB input stream
+@Then("I should see the created user's ID")
+public void i_should_see_the_created_user_s_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
 
-runners.TestRunner.runScenario["Open Amazon Home Page", "Amazon Web Testing"](5)  Time elapsed: 4.601 s  <<< FAILURE!
-java.lang.AssertionError: Amazon homepage is not displayed! expected [https://www.amazon.com] but found [https://www.amazon.com/]
+
+runners.TestRunner.runScenario["Validate delayed response from API", "API Tests on Reqres"](5)  Time elapsed: 5.517 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
 

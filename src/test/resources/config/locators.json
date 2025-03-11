@@ -2,6 +2,7 @@
   "HomePage": {
     "searchBox": "//input[@id='twotabsearchtextbox']",
     "searchButton": "//input[@id='nav-search-submit-button']",
-    "signInButton": "//a[@id='nav-link-accountList']"
+    "signInButton": "//a[@id='nav-link-accountList']",
+    "searchButton": "//input[@id='nav-search-submit-button']"
   }
 }
