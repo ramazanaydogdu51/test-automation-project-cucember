@@ -1936,3 +1936,1740 @@ Session ID: af8720a7c67ce729562c8ad4caca66da
 2025-03-12 19:58:06 [main] INFO  ApiSteps - HTTP Status Code: 204
 2025-03-12 19:58:06 [main] INFO  ApiSteps - Response Body: 
 2025-03-12 19:58:06 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 20:00:25 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:00:25 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 20:00:29 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 20:00:29 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 20:00:29 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 20:00:31 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 20:00:31 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 20:00:32 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 20:00:32 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 20:00:32 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 20:00:32 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 20:00:32 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 20:00:32 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 20:00:34 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 20:00:34 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 20:00:34 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [328c00ac-4d94-44d5-9565-2e43ea5543ab, findChildElement {id=d5547151-550c-4d22-b2bf-9ae59be35115, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27108, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 328c00ac-4d94-44d5-9565-2e43ea5543ab
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - İncelenen ürün: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 20:00:34 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 20:00:35 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 20:00:35 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 20:00:35 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 20:22:29 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:22:29 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 20:22:33 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 20:22:34 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 20:22:34 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 20:22:35 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 20:22:35 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 20:22:46 [main] ERROR CommonLib - ❌ Element tıklanamadı: By.xpath: //input[@id='twotabsearchtextbox'] - Hata: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14432, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0b43b18a-20db-4b1a-b808-5fa064a7b3e3
+2025-03-12 20:22:51 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:22:51 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:22:52 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:22:52 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:22:52 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 20:22:53 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:22:53 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 20:22:53 [main] INFO  ApiSteps - Response Time: 1004 ms
+2025-03-12 20:22:53 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 20:22:53 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "348",
+    "createdAt": "2025-03-12T17:22:52.910Z"
+}
+2025-03-12 20:22:53 [main] INFO  ApiSteps - Created User ID: 348
+2025-03-12 20:22:53 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 20:22:53 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 20:25:00 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:25:00 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 20:25:04 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 20:25:04 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 20:25:04 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 20:25:06 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 20:25:06 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 20:25:06 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 20:25:06 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 20:25:06 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 20:25:08 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 20:25:08 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 20:25:08 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 20:25:08 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 20:25:08 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d853763-4940-4eaa-bc45-bac90dbdff23, findChildElement {id=40448dc0-0340-43bd-bd85-e211300f8fb8, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11372, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3d853763-4940-4eaa-bc45-bac90dbdff23
+2025-03-12 20:25:09 [main] INFO  AmazonSteps - İncelenen ürün: jumper 2025 Laptop, Intel 8-Core Processor(Up to 4.4GHz), 16GB DDR4 512GB NVME SSD, 15.6" FHD IPS Screen, 62.7Wh Battery, WiFi-6, Bluetooth5.1, USB3.2, 4 Stereo Speakers, 2 Memory Slots.
+2025-03-12 20:25:09 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: jumper 2025 Laptop, Intel 8-Core Processor(Up to 4.4GHz), 16GB DDR4 512GB NVME SSD, 15.6" FHD IPS Screen, 62.7Wh Battery, WiFi-6, Bluetooth5.1, USB3.2, 4 Stereo Speakers, 2 Memory Slots.
+2025-03-12 20:25:09 [main] INFO  AmazonSteps - Sepete eklenen ürün: jumper 2025 Laptop, Intel 8-Core Processor(Up to 4.4GHz), 16GB DDR4 512GB NVME SSD, 15.6" FHD IPS Screen, 62.7Wh Battery, WiFi-6, Bluetooth5.1, USB3.2, 4 Stereo Speakers, 2 Memory Slots.
+2025-03-12 20:28:40 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:28:40 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 20:28:50 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:28:51 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:28:51 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:28:51 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:28:51 [main] WARN  ApiSteps - ⚠️ Field 'name' not found in request body!
+2025-03-12 20:28:51 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 20:28:52 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:28:52 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 20:28:52 [main] INFO  ApiSteps - Response Time: 904 ms
+2025-03-12 20:28:52 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 20:28:52 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "730",
+    "createdAt": "2025-03-12T17:28:51.808Z"
+}
+2025-03-12 20:28:52 [main] INFO  ApiSteps - Created User ID: 730
+2025-03-12 20:28:52 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 20:28:52 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 20:31:45 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:31:45 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:31:45 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:31:45 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:31:45 [main] WARN  ApiSteps - ⚠️ Field 'name' not found in request body!
+2025-03-12 20:31:45 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 20:31:46 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:31:46 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 20:31:46 [main] INFO  ApiSteps - Response Time: 966 ms
+2025-03-12 20:31:46 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 20:31:47 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "620",
+    "createdAt": "2025-03-12T17:31:46.469Z"
+}
+2025-03-12 20:31:47 [main] INFO  ApiSteps - Created User ID: 620
+2025-03-12 20:31:47 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 20:31:47 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 20:38:11 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:38:12 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:38:12 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:38:12 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:38:12 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aray'
+2025-03-12 20:38:12 [main] INFO  ApiSteps - Updated request body: {"name":"Aray","job":"Developer"}
+2025-03-12 20:38:12 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 20:38:13 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:38:13 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 20:38:13 [main] INFO  ApiSteps - Response Time: 956 ms
+2025-03-12 20:38:13 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 20:38:13 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aray",
+    "job": "Developer",
+    "id": "389",
+    "createdAt": "2025-03-12T17:38:13.082Z"
+}
+2025-03-12 20:38:13 [main] INFO  ApiSteps - Created User ID: 389
+2025-03-12 20:38:13 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Aray
+2025-03-12 20:38:13 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 20:39:40 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:39:41 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aray'
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Updated request body: {"name":"Aray","job":"Developer"}
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Updated request body: {"name":"Aray","job":"Developer in Test"}
+2025-03-12 20:39:41 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 20:39:42 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:39:42 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 20:39:42 [main] INFO  ApiSteps - Response Time: 988 ms
+2025-03-12 20:39:42 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 20:39:42 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aray",
+    "job": "Developer in Test",
+    "id": "297",
+    "createdAt": "2025-03-12T17:39:42.355Z"
+}
+2025-03-12 20:39:42 [main] INFO  ApiSteps - Created User ID: 297
+2025-03-12 20:39:42 [main] INFO  ApiCommonLib - Validating response: Expected name = Aray, Actual = Aray
+2025-03-12 20:39:42 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 20:45:57 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:45:58 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 20:45:58 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users
+2025-03-12 20:45:59 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:45:59 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 20:45:59 [main] INFO  ApiSteps - Response Time: 1023 ms
+2025-03-12 20:45:59 [main] INFO  ApiSteps - HTTP Status Code: 404
+2025-03-12 20:46:00 [main] INFO  ApiSteps - Response Body: <html lang="en">
+  <head>
+    <script>
+            ;(function (w, d, s, l, i) {
+                w[l] = w[l] || []
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                })
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&amp;l=' + l : ''
+                j.async = true
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+                f.parentNode.insertBefore(j, f)
+            })(window, document, 'script', 'dataLayer', 'GTM-KB622KF')
+        </script>
+    <script src="https://js.stripe.com/v3/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="description" content="A hosted REST-API ready to respond to your AJAX requests"/>
+    <title>
+            Reqres - A hosted REST-API ready to respond to your AJAX requests
+        </title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"/>
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo">
+            <a shape="rect" href="/">
+              <img src="/img/logo.png" alt=""/>
+            </a>
+          </h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">
+                        Test your front-end against a real API
+                    </h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                                    No more tedious sample data creation, we've
+                                    got it covered.
+                                </p>
+              </div>
+              <i class="fa fa-cloud-download"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                                    Develop with real response codes. GET, POST,
+                                    PUT &amp; DELETE supported.
+                                </p>
+              </div>
+              <i class="fa fa-code"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+
+                                    24/7                   <strong>
+                    <em>free</em>
+                  </strong>
+ access
+                                    in your development phases. Go nuts.
+                                                </p>
+              </div>
+              <i class="fa fa-toggle-on"/>
+            </div>
+          </section>
+          <h2 class="tagline">
+                        A hosted REST-API ready to respond to your AJAX
+                        requests.
+                    </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"/>
+          </div>
+          <div class="feature-ad" id="cc-ad">
+            <a shape="rect" href="">
+              <img src="" alt="Ad"/>
+            </a>
+          </div>
+          <script id="_carbonads_js" async="async" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin"/>
+        </div>
+      </main>
+    </div>
+    <div class="container">404</div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark"/>
+        <p class="t-center">
+
+                    Made for developers and designers by
+                              <a shape="rect" href="https://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"/>
+    <script src="/js/app.js"/>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-174008107-1"/>
+    <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-174008107-1')
+        </script>
+    <script>
+            ;(function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r
+                ;(i[r] =
+                    i[r] ||
+                    function () {
+                        ;(i[r].q = i[r].q || []).push(arguments)
+                    }),
+                    (i[r].l = 1 * new Date())
+                ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+                a.async = 1
+                a.src = g
+                m.parentNode.insertBefore(a, m)
+            })(
+                window,
+                document,
+                'script',
+                '//www.google-analytics.com/analytics.js',
+                'ga'
+            )
+
+            ga('create', 'UA-55888877-1', 'auto')
+            ga('send', 'pageview')
+        </script>
+    <script>
+            ;(function () {
+                if (typeof _bsa !== 'undefined' &amp;&amp; _bsa) {
+                    _bsa.init(
+                        'custom',
+                        'CEBIP53J',
+                        'placement:reqresin-sponsor',
+                        {
+                            target: '#impeccable-js',
+                            template: `
+        &lt;a href="##link##" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##"&gt;
+        &lt;img src="##logo##" style="background-color: ##backgroundColor##"&gt;
+        &lt;div class="sponsor-description"&gt;##description##&lt;/div&gt;
+        &lt;div class="sponsor-cta" style="background-color: ##backgroundColor##; color: ##textColor##"&gt;##callToAction##&lt;/div&gt;
+        &lt;/a&gt;
+        `,
+                        }
+                    )
+                }
+            })()
+        </script>
+  </body>
+</html>
+2025-03-12 20:46:10 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:46:11 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 20:46:11 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users
+2025-03-12 20:46:12 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 20:46:12 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 20:46:12 [main] INFO  ApiSteps - Response Time: 843 ms
+2025-03-12 20:46:12 [main] INFO  ApiSteps - HTTP Status Code: 404
+2025-03-12 20:46:12 [main] INFO  ApiSteps - Response Body: <html lang="en">
+  <head>
+    <script>
+            ;(function (w, d, s, l, i) {
+                w[l] = w[l] || []
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                })
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&amp;l=' + l : ''
+                j.async = true
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+                f.parentNode.insertBefore(j, f)
+            })(window, document, 'script', 'dataLayer', 'GTM-KB622KF')
+        </script>
+    <script src="https://js.stripe.com/v3/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="description" content="A hosted REST-API ready to respond to your AJAX requests"/>
+    <title>
+            Reqres - A hosted REST-API ready to respond to your AJAX requests
+        </title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"/>
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo">
+            <a shape="rect" href="/">
+              <img src="/img/logo.png" alt=""/>
+            </a>
+          </h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">
+                        Test your front-end against a real API
+                    </h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                                    No more tedious sample data creation, we've
+                                    got it covered.
+                                </p>
+              </div>
+              <i class="fa fa-cloud-download"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                                    Develop with real response codes. GET, POST,
+                                    PUT &amp; DELETE supported.
+                                </p>
+              </div>
+              <i class="fa fa-code"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+
+                                    24/7                   <strong>
+                    <em>free</em>
+                  </strong>
+ access
+                                    in your development phases. Go nuts.
+                                                </p>
+              </div>
+              <i class="fa fa-toggle-on"/>
+            </div>
+          </section>
+          <h2 class="tagline">
+                        A hosted REST-API ready to respond to your AJAX
+                        requests.
+                    </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"/>
+          </div>
+          <div class="feature-ad" id="cc-ad">
+            <a shape="rect" href="">
+              <img src="" alt="Ad"/>
+            </a>
+          </div>
+          <script id="_carbonads_js" async="async" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin"/>
+        </div>
+      </main>
+    </div>
+    <div class="container">404</div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark"/>
+        <p class="t-center">
+
+                    Made for developers and designers by
+                              <a shape="rect" href="https://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"/>
+    <script src="/js/app.js"/>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-174008107-1"/>
+    <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-174008107-1')
+        </script>
+    <script>
+            ;(function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r
+                ;(i[r] =
+                    i[r] ||
+                    function () {
+                        ;(i[r].q = i[r].q || []).push(arguments)
+                    }),
+                    (i[r].l = 1 * new Date())
+                ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+                a.async = 1
+                a.src = g
+                m.parentNode.insertBefore(a, m)
+            })(
+                window,
+                document,
+                'script',
+                '//www.google-analytics.com/analytics.js',
+                'ga'
+            )
+
+            ga('create', 'UA-55888877-1', 'auto')
+            ga('send', 'pageview')
+        </script>
+    <script>
+            ;(function () {
+                if (typeof _bsa !== 'undefined' &amp;&amp; _bsa) {
+                    _bsa.init(
+                        'custom',
+                        'CEBIP53J',
+                        'placement:reqresin-sponsor',
+                        {
+                            target: '#impeccable-js',
+                            template: `
+        &lt;a href="##link##" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##"&gt;
+        &lt;img src="##logo##" style="background-color: ##backgroundColor##"&gt;
+        &lt;div class="sponsor-description"&gt;##description##&lt;/div&gt;
+        &lt;div class="sponsor-cta" style="background-color: ##backgroundColor##; color: ##textColor##"&gt;##callToAction##&lt;/div&gt;
+        &lt;/a&gt;
+        `,
+                        }
+                    )
+                }
+            })()
+        </script>
+  </body>
+</html>
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:46:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 20:46:32 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 20:46:34 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 20:46:34 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 20:46:34 [main] INFO  ApiSteps - Response Time: 959 ms
+2025-03-12 20:46:34 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 20:46:34 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T17:46:33.565Z"
+}
+2025-03-12 20:46:45 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:46:46 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 20:46:46 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 20:46:47 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 20:46:47 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 20:46:47 [main] INFO  ApiSteps - Response Time: 838 ms
+2025-03-12 20:46:47 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 20:46:47 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T17:46:46.997Z"
+}
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 20:47:02 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 20:47:02 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 20:47:03 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 20:47:03 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 20:47:03 [main] INFO  ApiSteps - Response Time: 864 ms
+2025-03-12 20:47:03 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 20:47:03 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T17:47:03.389Z"
+}
+2025-03-12 20:47:03 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 20:47:03 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 21:20:44 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:20:45 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:20:45 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:20:46 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:20:46 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:20:46 [main] INFO  ApiSteps - Response Time: 1009 ms
+2025-03-12 21:20:46 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:20:46 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:20:46.311Z"
+}
+2025-03-12 21:20:46 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:20:46 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 21:28:40 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:28:41 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:28:41 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:28:42 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:28:42 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:28:42 [main] INFO  ApiSteps - Response Time: 913 ms
+2025-03-12 21:28:42 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:28:42 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:28:41.861Z"
+}
+2025-03-12 21:28:42 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:42:33 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:42:33 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:42:35 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:42:35 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:42:35 [main] INFO  ApiSteps - Response Time: 998 ms
+2025-03-12 21:42:35 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:42:35 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:42:34.432Z"
+}
+2025-03-12 21:42:35 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:44:19 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:44:19 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:44:21 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:44:21 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:44:21 [main] INFO  ApiSteps - Response Time: 987 ms
+2025-03-12 21:44:21 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:44:21 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:44:20.581Z"
+}
+2025-03-12 21:44:21 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:44:21 [main] INFO  ApiCommonLib - Validating response: Expected job = Tester, Actual = Software
+2025-03-12 21:44:31 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:44:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:44:32 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:44:33 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:44:33 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:44:33 [main] INFO  ApiSteps - Response Time: 852 ms
+2025-03-12 21:44:33 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:44:33 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:44:32.668Z"
+}
+2025-03-12 21:44:33 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan , Actual = Ramazan Aydogdu
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:58:03 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:58:03 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:58:05 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:58:05 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:58:05 [main] INFO  ApiSteps - Response Time: 904 ms
+2025-03-12 21:58:05 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:58:05 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:58:04.494Z"
+}
+2025-03-12 21:58:05 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan , Actual = Ramazan Aydogdu
+2025-03-12 21:58:33 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:58:34 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:58:34 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:58:35 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:58:35 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:58:35 [main] INFO  ApiSteps - Response Time: 895 ms
+2025-03-12 21:58:35 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:58:35 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:58:35.024Z"
+}
+2025-03-12 21:58:35 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:58:35 [main] INFO  ApiCommonLib - Validating response: Expected job = Tester, Actual = Software
+2025-03-12 21:58:53 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:58:54 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:58:54 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:58:55 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:58:55 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:58:55 [main] INFO  ApiSteps - Response Time: 912 ms
+2025-03-12 21:58:55 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:58:55 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:58:55.129Z"
+}
+2025-03-12 21:58:55 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:58:55 [main] INFO  ApiCommonLib - Validating response: Expected job = software, Actual = Software
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 21:59:04 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 21:59:04 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 21:59:05 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 21:59:05 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 21:59:05 [main] INFO  ApiSteps - Response Time: 875 ms
+2025-03-12 21:59:05 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 21:59:05 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T18:59:05.178Z"
+}
+2025-03-12 21:59:05 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 21:59:05 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:14:57 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 22:14:57 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 22:14:59 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 22:14:59 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 22:14:59 [main] INFO  ApiSteps - Response Time: 938 ms
+2025-03-12 22:14:59 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 22:14:59 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T19:14:58.637Z"
+}
+2025-03-12 22:14:59 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 22:14:59 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:15:27 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 22:15:27 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 22:15:28 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 22:15:28 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 22:15:28 [main] INFO  ApiSteps - Response Time: 847 ms
+2025-03-12 22:15:28 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 22:15:28 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T19:15:28.239Z"
+}
+2025-03-12 22:15:28 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 22:15:28 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 22:15:28 [main] INFO  ApiSteps - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 22:17:13 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:17:14 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 22:17:14 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 22:17:15 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 22:17:15 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 22:17:15 [main] INFO  ApiSteps - Response Time: 860 ms
+2025-03-12 22:17:15 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 22:17:15 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T19:17:15.136Z"
+}
+2025-03-12 22:17:15 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 22:17:15 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 22:17:15 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:18:26 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:18:26 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:18:27 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:18:27 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:18:27 [main] INFO  ApiSteps - Response Time: 820 ms
+2025-03-12 22:18:27 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:18:27 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "811",
+    "createdAt": "2025-03-12T19:18:27.403Z"
+}
+2025-03-12 22:18:28 [main] INFO  ApiSteps - Created User ID: 811
+2025-03-12 22:18:28 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 22:18:28 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 22:18:28 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 22:18:28 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 22:20:57 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:20:58 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 22:20:59 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 22:20:59 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 22:20:59 [main] INFO  ApiSteps - Response Time: 794 ms
+2025-03-12 22:20:59 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 22:20:59 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 22:24:16 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:24:16 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 22:24:20 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 22:24:20 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 22:24:20 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 22:24:22 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 22:24:22 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 22:24:23 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 22:24:23 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 22:24:23 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 22:24:23 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 22:24:23 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 22:24:23 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 22:24:25 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 22:24:25 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 22:24:26 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff3fe5c7-6c0e-4a14-a209-607c848303fc, findChildElement {id=64943838-df47-412b-a61b-e221d8c45590, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3408, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: ff3fe5c7-6c0e-4a14-a209-607c848303fc
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - İncelenen ürün: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:26 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:41 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:24:41 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 22:24:45 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 22:24:45 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 22:24:45 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 22:24:46 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 22:24:46 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 22:24:47 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 22:24:47 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 22:24:47 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 22:24:47 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 22:24:47 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 22:24:47 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 22:24:49 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 22:24:49 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 22:24:49 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e86a19c-72e1-4ece-8553-245cc3874b55, findChildElement {id=45e61652-8f7b-47fd-87c5-d1f570913bdc, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22440, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8e86a19c-72e1-4ece-8553-245cc3874b55
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İncelenen ürün: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: jumper Laptop, 12GB RAM 640GB ROM, Office 365-1 Year 5305U Processor, 15.6 Inch Computer, FHD IPS Screen, 38Wh Battery, 2 Stereo Speakers, USB3.0 * 2, HDMI.
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:49 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:50 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 22:24:50 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:51 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 22:24:51 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 22:24:51 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Time: 793 ms
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "765",
+    "createdAt": "2025-03-12T19:24:51.737Z"
+}
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Created User ID: 765
+2025-03-12 22:24:52 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 22:24:52 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Time: 222 ms
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T19:24:52.070Z"
+}
+2025-03-12 22:24:52 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 22:24:52 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Time: 207 ms
+2025-03-12 22:24:52 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:24:52 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Time: 218 ms
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "804",
+    "createdAt": "2025-03-12T19:24:52.622Z"
+}
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Created User ID: 804
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Software'
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Time: 188 ms
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T19:24:52.837Z"
+}
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 22:24:53 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Time: 181 ms
+2025-03-12 22:24:53 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 22:24:53 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 22:26:27 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:26:27 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 22:26:35 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:26:36 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:26:36 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:26:37 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:26:37 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:26:37 [main] INFO  ApiSteps - Response Time: 872 ms
+2025-03-12 22:26:37 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:26:37 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "236",
+    "createdAt": "2025-03-12T19:26:36.854Z"
+}
+2025-03-12 22:26:37 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 22:26:37 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 22:26:37 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 22:26:37 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 22:28:53 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:28:54 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:28:54 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:28:55 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:28:55 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:28:55 [main] INFO  ApiSteps - Response Time: 763 ms
+2025-03-12 22:28:55 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:28:55 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "943",
+    "createdAt": "2025-03-12T19:28:54.712Z"
+}
+2025-03-12 22:28:55 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Aydogdu
+2025-03-12 22:29:15 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:29:16 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:29:16 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:29:17 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:29:17 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:29:17 [main] INFO  ApiSteps - Response Time: 813 ms
+2025-03-12 22:29:17 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:29:17 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "770",
+    "createdAt": "2025-03-12T19:29:16.895Z"
+}
+2025-03-12 22:29:17 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 22:29:17 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 22:29:17 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 22:29:17 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 22:37:03 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 22:37:03 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:37:05 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:37:05 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:37:05 [main] INFO  ApiSteps - Response Time: 908 ms
+2025-03-12 22:37:05 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:37:05 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "33",
+    "createdAt": "2025-03-12T19:37:04.501Z"
+}
+2025-03-12 22:37:05 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 22:37:05 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 22:37:05 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 22:37:05 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 22:40:24 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:40:25 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:40:25 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:40:25 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:40:25 [main] WARN  ApiSteps - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 22:40:25 [main] WARN  ApiSteps - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 22:40:25 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:40:26 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:40:26 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:40:26 [main] INFO  ApiSteps - Response Time: 897 ms
+2025-03-12 22:40:26 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:40:26 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "631",
+    "createdAt": "2025-03-12T19:40:26.027Z"
+}
+2025-03-12 22:40:26 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Ramazan
+2025-03-12 22:42:50 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:42:50 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:42:50 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:42:50 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:42:50 [main] ERROR ApiSteps - ❌ Request body is null! Make sure to set the request body first.
+2025-03-12 22:42:59 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:43:00 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:43:00 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:43:00 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:43:00 [main] ERROR ApiSteps - ❌ Request body is null! Make sure to set the request body first.
+2025-03-12 22:45:53 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:45:53 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:45:53 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:45:53 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:45:53 [main] WARN  ApiSteps - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 22:45:53 [main] WARN  ApiSteps - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 22:45:53 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:45:55 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:45:55 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:45:55 [main] INFO  ApiSteps - Response Time: 1542 ms
+2025-03-12 22:45:55 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:45:55 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "342",
+    "createdAt": "2025-03-12T19:45:54.236Z"
+}
+2025-03-12 22:45:55 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Ramazan
+2025-03-12 22:55:35 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:55:36 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:55:36 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:55:36 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:55:36 [main] WARN  ApiCommonLib - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 22:55:36 [main] WARN  ApiCommonLib - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 22:55:36 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:55:37 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:55:37 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:55:37 [main] INFO  ApiSteps - Response Time: 997 ms
+2025-03-12 22:55:37 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:55:37 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "189",
+    "createdAt": "2025-03-12T19:55:36.981Z"
+}
+2025-03-12 22:55:37 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Ramazan
+2025-03-12 22:59:04 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 22:59:05 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 22:59:05 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 22:59:05 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 22:59:05 [main] WARN  ApiSteps - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 22:59:05 [main] WARN  ApiCommonLib - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 22:59:05 [main] WARN  ApiSteps - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 22:59:05 [main] WARN  ApiCommonLib - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 22:59:05 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 22:59:06 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 22:59:06 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 22:59:06 [main] INFO  ApiSteps - Response Time: 883 ms
+2025-03-12 22:59:06 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 22:59:06 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "142",
+    "createdAt": "2025-03-12T19:59:05.965Z"
+}
+2025-03-12 22:59:06 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Ramazan
+2025-03-12 23:01:22 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:01:22 [main] INFO  ApiSteps - Reading request body from file: src/test/resources/data/userData.json
+2025-03-12 23:01:22 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:01:22 [main] INFO  ApiSteps - Request body: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:01:22 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:01:22 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:01:22 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:01:22 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:01:22 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:01:23 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:01:23 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:01:23 [main] INFO  ApiSteps - Response Time: 809 ms
+2025-03-12 23:01:23 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:01:23 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "612",
+    "createdAt": "2025-03-12T20:01:23.157Z"
+}
+2025-03-12 23:01:23 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:01:23 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:01:23 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:01:23 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:07:26 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:07:27 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:07:27 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:07:27 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:07:27 [main] WARN  ApiCommonLib - ⚠️ Field 'name' not found in request body or requestBody is null!
+2025-03-12 23:07:27 [main] WARN  ApiCommonLib - ⚠️ Field 'job' not found in request body or requestBody is null!
+2025-03-12 23:07:27 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:07:28 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:07:28 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:07:28 [main] INFO  ApiSteps - Response Time: 890 ms
+2025-03-12 23:07:28 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:07:28 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "486",
+    "createdAt": "2025-03-12T20:07:28.064Z"
+}
+2025-03-12 23:07:28 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Ramazan
+2025-03-12 23:09:28 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:09:29 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:09:29 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:09:29 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:09:30 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:09:30 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:09:30 [main] INFO  ApiSteps - Response Time: 823 ms
+2025-03-12 23:09:30 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:09:30 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "384",
+    "createdAt": "2025-03-12T20:09:29.581Z"
+}
+2025-03-12 23:09:30 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:09:30 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:09:30 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:09:30 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:09:56 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:09:57 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:09:57 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:09:57 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:09:58 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:09:58 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:09:58 [main] INFO  ApiSteps - Response Time: 931 ms
+2025-03-12 23:09:58 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:09:58 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T20:09:58.009Z"
+}
+2025-03-12 23:09:58 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 23:09:58 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 23:09:58 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 23:13:17 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:13:17 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:13:20 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:13:20 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 23:13:20 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 23:13:22 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:13:22 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:13:22 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 23:13:22 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 23:13:22 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:13:24 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:13:24 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:13:25 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2bcac2f7-af3f-469d-bc60-5c7a1d08074f, findChildElement {id=b5b03fa7-61f6-4850-bdc6-7f3b0f8b1c68, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12340, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2bcac2f7-af3f-469d-bc60-5c7a1d08074f
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:13:25 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2bcac2f7-af3f-469d-bc60-5c7a1d08074f, findChildElement {id=2f1df0a3-0f81-4f7b-b87d-b3ccc59051cb, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12340, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2bcac2f7-af3f-469d-bc60-5c7a1d08074f
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:13:25 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:20:52 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:20:52 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:23:57 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:23:58 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:23:58 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:23:58 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:23:58 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:23:59 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:23:59 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:23:59 [main] INFO  ApiSteps - Response Time: 951 ms
+2025-03-12 23:23:59 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:23:59 [main] INFO  ApiSteps - Response Body: {
+    "updatedAt": "2025-03-12T20:23:58.950Z"
+}
+2025-03-12 23:26:37 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:26:50 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:26:51 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:26:51 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:26:51 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:26:51 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:26:52 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:26:52 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:26:52 [main] INFO  ApiSteps - Response Time: 986 ms
+2025-03-12 23:26:52 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:26:52 [main] INFO  ApiSteps - Response Body: {
+    "updatedAt": "2025-03-12T20:26:51.850Z"
+}
+2025-03-12 23:27:19 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:27:20 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:27:20 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:27:20 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:27:20 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:27:21 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:27:21 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:27:21 [main] INFO  ApiSteps - Response Time: 837 ms
+2025-03-12 23:27:21 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:27:21 [main] INFO  ApiSteps - Response Body: {
+    "id": "639",
+    "createdAt": "2025-03-12T20:27:20.714Z"
+}
+2025-03-12 23:27:56 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:27:57 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:27:57 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:27:57 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:27:58 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:27:58 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:27:58 [main] INFO  ApiSteps - Response Time: 932 ms
+2025-03-12 23:27:58 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:27:58 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "937",
+    "createdAt": "2025-03-12T20:27:58.105Z"
+}
+2025-03-12 23:27:58 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:27:58 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:27:58 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:27:58 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:28:31 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:28:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:28:32 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:28:32 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:28:33 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:28:33 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:28:33 [main] INFO  ApiSteps - Response Time: 843 ms
+2025-03-12 23:28:33 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:28:33 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "384",
+    "createdAt": "2025-03-12T20:28:33.026Z"
+}
+2025-03-12 23:28:33 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:28:33 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:28:33 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:28:33 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:29:01 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:29:02 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:29:02 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:29:02 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:29:03 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:29:03 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:29:03 [main] INFO  ApiSteps - Response Time: 883 ms
+2025-03-12 23:29:03 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:29:03 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T20:29:02.938Z"
+}
+2025-03-12 23:29:03 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 23:29:03 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 23:29:03 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 23:29:24 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 23:29:24 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:29:25 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:29:25 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:29:25 [main] INFO  ApiSteps - Response Time: 780 ms
+2025-03-12 23:29:25 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:29:25 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:30:39 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:30:40 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:30:40 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:30:40 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Time: 834 ms
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "167",
+    "createdAt": "2025-03-12T20:30:40.683Z"
+}
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Time: 213 ms
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T20:30:41.066Z"
+}
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 23:30:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Time: 194 ms
+2025-03-12 23:30:41 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:30:41 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:35:14 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:35:15 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:35:15 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:35:19 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:35:19 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:35:20 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:35:20 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:35:20 [main] INFO  ApiSteps - Response Time: 647 ms
+2025-03-12 23:35:20 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:35:20 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:35:20 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 23:38:29 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:38:29 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:38:29 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:38:32 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:38:33 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:38:34 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:38:34 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:38:34 [main] INFO  ApiSteps - Response Time: 704 ms
+2025-03-12 23:38:34 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:38:34 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:38:34 [main] INFO  ApiCommonLib - Actual Status Code 204 =
+2025-03-12 23:38:34 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 23:38:53 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:38:53 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:38:53 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:38:57 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:38:57 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:38:58 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:38:58 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:38:58 [main] INFO  ApiSteps - Response Time: 632 ms
+2025-03-12 23:38:58 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:38:58 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:38:58 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-12 23:38:58 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 23:39:11 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:39:12 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:39:12 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:39:15 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:39:15 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:39:16 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:39:16 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:39:16 [main] INFO  ApiSteps - Response Time: 734 ms
+2025-03-12 23:39:16 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:39:16 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:39:16 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 23:39:48 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:39:49 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-12 23:39:49 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-12 23:39:49 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Time: 803 ms
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "428",
+    "createdAt": "2025-03-12T20:39:49.773Z"
+}
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Time: 218 ms
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T20:39:50.172Z"
+}
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Time: 211 ms
+2025-03-12 23:39:50 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 23:39:50 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 23:39:50 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-12 23:41:33 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:41:33 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:41:33 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:41:37 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:41:37 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 23:41:37 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 23:41:38 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 23:41:38 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:41:49 [main] ERROR CommonLib - ❌ Element tıklanamadı: By.xpath: //input[@id='twotabsearchtextbox'] - Hata: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25764, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: eba085f6-32ea-4b23-8ce8-02820c8358f1
+2025-03-12 23:41:55 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:41:55 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:41:55 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:41:58 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:41:59 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 23:41:59 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 23:42:00 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 23:42:00 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:42:01 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:42:01 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:42:01 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 23:42:01 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 23:42:01 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 23:42:01 [main] INFO  CommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:42:03 [main] INFO  CommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:42:03 [main] INFO  CommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:42:04 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e48dd32-8959-49c3-943e-d67cfcb46a38, findChildElement {id=5a972fa5-168a-4233-80b8-c2e194919e5b, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22048, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e48dd32-8959-49c3-943e-d67cfcb46a38
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:42:04 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9e48dd32-8959-49c3-943e-d67cfcb46a38, findChildElement {id=15e90e72-a383-457f-b98f-ec17012a183d, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22048, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9e48dd32-8959-49c3-943e-d67cfcb46a38
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İncelenen ürün: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - Bu ürün indirimde, atlanıyor: HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:42:04 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:42:48 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:42:49 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:42:49 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:42:52 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:42:52 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 23:42:52 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 23:42:53 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 23:42:53 [main] INFO  UICommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:43:04 [main] INFO  ApiSteps - Preparing request
+2025-03-12 23:43:05 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 23:43:05 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 23:43:08 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 23:43:08 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-12 23:43:08 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ➡ Expected URL: https://www.amazon.com/
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ➡ Actual URL: https://www.amazon.com/
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ✅ The website URL is correct!
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchBox
+2025-03-12 23:43:10 [main] INFO  UICommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:43:10 [main] INFO  UICommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-12 23:43:10 [main] INFO  UICommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ✍ Writing text 'laptop' in last clicked element
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - ✅ Successfully wrote text: 'laptop'
+2025-03-12 23:43:10 [main] INFO  AmazonSteps - Trying to click on: HomePage - searchButton
+2025-03-12 23:43:10 [main] INFO  UICommonLib - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:43:12 [main] INFO  UICommonLib - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-12 23:43:12 [main] INFO  UICommonLib - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 128 GB, Gray, without lockscreen ads
+2025-03-12 23:43:12 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5d06b54f-93ae-4662-815e-1208e3814d95, findChildElement {id=eb2c3196-de5b-4d05-a49f-21ba11b321c0, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17840, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5d06b54f-93ae-4662-815e-1208e3814d95
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 Keyboard Case (Only compatible with 13th generation tablet, 2023 release)
+2025-03-12 23:43:12 [main] WARN  AmazonSteps - Hata oluştu, ürün işlenemedi: Unable to locate element: *[name='submit.addToCart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5d06b54f-93ae-4662-815e-1208e3814d95, findChildElement {id=bb37fd62-5d1e-4ea4-a715-1c6bc25e17a9, using=name, value=submit.addToCart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17840, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5d06b54f-93ae-4662-815e-1208e3814d95
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İncelenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:43:12 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
+2025-03-12 23:43:13 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode

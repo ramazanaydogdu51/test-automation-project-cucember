@@ -73,7 +73,7 @@ public class AmazonSteps  {
         String locator = JsonReader.getLocator(pageName, elementName);
         if (locator != null) {
             By byElement = By.xpath(locator); // XPath kullanılıyor
-            CommonLib.clickElement(driver, byElement, true, "Clicking " + pageName + " - " + elementName);
+            UICommonLib.clickElement(driver, byElement, true, "Clicking " + pageName + " - " + elementName);
         } else {
             throw new RuntimeException("Element not found in JSON: " + pageName + " - " + elementName);
         }

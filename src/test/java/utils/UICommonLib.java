@@ -14,8 +14,8 @@ import java.util.Set;
 
 
 
-public class CommonLib {
-    private static final Logger log = LogManager.getLogger(CommonLib.class);
+public class UICommonLib {
+    private static final Logger log = LogManager.getLogger(UICommonLib.class);
 
 
     // Elementi sayfanın en üstüne hizalar (start)
@@ -66,11 +66,11 @@ public class CommonLib {
             // 📸 Eğer test kanıtı isteniyorsa, SS al
             if (takeScreenshot) {
                 log.info("📸 Element tıklama sonrası ekran görüntüsü alınıyor...");
-                CommonLib.captureScreenshot(driver, "Click Success => " + descriptionOfPic);
+                UICommonLib.captureScreenshot(driver, "Click Success => " + descriptionOfPic);
             }
         } catch (TimeoutException | NoSuchElementException e) {
             log.error("❌ Element tıklanamadı: {} - Hata: {}", element, e.getMessage());
-            CommonLib.captureScreenshot(driver, "ClickElement_Error");
+            UICommonLib.captureScreenshot(driver, "ClickElement_Error");
             throw e;
         }
     }

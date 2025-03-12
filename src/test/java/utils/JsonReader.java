@@ -15,6 +15,16 @@ public class JsonReader {
     private static final String LOCATORS_PATH = "src/test/resources/config/locators.json";
     private static final String CONFIG_PATH = "src/test/resources/config/config.json";
 
+    public static JsonObject readJsonFile(String filePath) {
+        try {
+            String content = new String(Files.readAllBytes(Paths.get(filePath)));
+            return JsonParser.parseString(content).getAsJsonObject();
+        } catch (IOException e) {
+            log.error("❌ Failed to read JSON file: " + filePath, e);
+            throw new RuntimeException(e);
+        }
+    }
+
     static {
         try {
             locatorsJson = JsonParser.parseString(new String(Files.readAllBytes(Paths.get(LOCATORS_PATH)))).getAsJsonObject();

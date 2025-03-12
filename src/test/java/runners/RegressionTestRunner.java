@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 )
 public class RegressionTestRunner extends AbstractTestNGCucumberTests {
     @Override
-    @DataProvider(parallel = true) // Büyük testlerde paralel çalıştırılabilir
+    @DataProvider(parallel = false) // Büyük testlerde paralel çalıştırılabilir
     public Object[][] scenarios() {
         return super.scenarios();
     }
