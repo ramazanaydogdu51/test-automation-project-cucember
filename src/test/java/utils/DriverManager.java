@@ -26,7 +26,7 @@ public class DriverManager {
                 case "chrome":
                 default:
                     WebDriverManager.chromedriver().setup();
-//                    ChromeOptions options = new ChromeOptions();
+                    ChromeOptions options = new ChromeOptions();
 //                    options.addArguments("--no-sandbox");
 //                    options.addArguments("--disable-dev-shm-usage");
 //                    options.addArguments("--disable-blink-features=AutomationControlled");
@@ -36,7 +36,7 @@ public class DriverManager {
 
                     //         options.addArguments("--headless");
 //                    options.addArguments("user-data-dir=C:/Users/51ram/AppData/Local/Google/Chrome/User Data");
-//                    options.addArguments("profile-directory=Profile 1"); // Varsayılan profil dizini
+//                    options.addArguments("profile-directory=Default"); // Varsayılan profil dizini
 //                    options.addArguments("--remote-debugging-port=0");
 //                    driver = new ChromeDriver(options);
                     log.info("ChromeDriver initialized with user data.");

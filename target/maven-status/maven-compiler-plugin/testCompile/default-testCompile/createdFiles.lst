@@ -1,5 +1,15 @@
 stepDefinitions\ApiSteps.class
+utils\BaseTest.class
 pages\HomePage.class
 stepDefinitions\AmazonSteps.class
+utils\JsonReader.class
+utils\UICommonLib.class
 runners\TestRunner.class
+utils\ApiCommonLib.class
+runners\UITestRunner.class
+utils\WaitUtils.class
+utils\ApiService.class
+runners\RegressionTestRunner.class
+runners\BaseTestRunner.class
+runners\APITestRunner.class
 utils\DriverManager.class

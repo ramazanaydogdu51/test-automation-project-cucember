@@ -36,9 +36,11 @@ public class AmazonSteps  {
         String fullUrl = JsonReader.getUrl(url);
         if (fullUrl != null) {
             driver.get(fullUrl);
+            UICommonLib.captureScreenshot(driver,fullUrl);
             log.info("✅ Successfully opened the website: {}", fullUrl);
         } else {
             log.error("❌ Failed to open the website. URL not found in JSON: {}", url);
+            UICommonLib.captureScreenshot(driver,fullUrl);
             throw new RuntimeException("URL not found in JSON: " + url);
         }
     }

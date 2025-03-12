@@ -120,11 +120,17 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <!-- Çalıştırılacak test runner sınıfları -->
                     <includes>
-                        <include>runners.TestRunner</include>
+                        <include>runners/*.java</include>
                     </includes>
+                    <!-- Allure sonuçlarını doğru dizine kaydet -->
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.basedir}/target/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
+
 
             <!-- ✅ Allure Raporlama -->
             <plugin>
