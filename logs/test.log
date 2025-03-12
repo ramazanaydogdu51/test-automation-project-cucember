@@ -7029,3 +7029,706 @@ Session ID: ebc18b89-dc9e-4c18-839f-c5675ce5d558
 2025-03-13 01:11:05 [main] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
 2025-03-13 01:11:05 [main] INFO  AmazonSteps - Sepete eklenen ürün: Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode
 2025-03-13 01:11:05 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-13 01:18:46 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:18:47 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:18:47 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-13 01:18:50 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-13 01:18:50 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-13 01:18:50 [main] INFO  AmazonSteps - 🌍 Navigating to the website: amazonhome
+2025-03-13 01:18:52 [main] INFO  AmazonSteps - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-13 01:18:52 [main] INFO  AmazonSteps - 🔍 Verifying if the current website matches the expected URL...
+2025-03-13 01:18:53 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-13 01:19:07 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:19:08 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:19:08 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:19:08 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-13 01:19:09 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Response Time: 1037 ms
+2025-03-13 01:19:09 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "895",
+    "createdAt": "2025-03-12T22:19:08.999Z"
+}
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:19:09 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Response Time: 211 ms
+2025-03-13 01:19:09 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:19:09.459Z"
+}
+2025-03-13 01:19:09 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:09 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:19:10 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:19:10 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:19:10 [main] INFO  ApiSteps - Response Time: 204 ms
+2025-03-13 01:19:10 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:19:10 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:19:10 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:19:32 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:19:32 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:19:32 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:19:32 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-13 01:19:33 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Response Time: 730 ms
+2025-03-13 01:19:33 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "225",
+    "createdAt": "2025-03-12T22:19:33.067Z"
+}
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:19:33 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Response Time: 221 ms
+2025-03-13 01:19:33 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-13 01:19:33 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:19:33.438Z"
+}
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:19:33 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:19:34 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:19:34 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:19:34 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:19:34 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:19:34 [main] INFO  ApiSteps - Response Time: 198 ms
+2025-03-13 01:19:34 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:19:34 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:19:34 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:21:39 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:21:40 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:21:40 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:21:40 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-13 01:21:41 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Response Time: 903 ms
+2025-03-13 01:21:41 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "104",
+    "createdAt": "2025-03-12T22:21:40.864Z"
+}
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:21:41 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Response Time: 236 ms
+2025-03-13 01:21:41 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:21:41.271Z"
+}
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:21:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:21:41 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:21:42 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:21:42 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:21:42 [main] INFO  ApiSteps - Response Time: 184 ms
+2025-03-13 01:21:42 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:21:42 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:21:42 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:24:37 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:24:37 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:24:37 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:24:37 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:24:38 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-13 01:24:38 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-13 01:24:38 [main] INFO  ApiSteps - Response Time: 814 ms
+2025-03-13 01:24:38 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-13 01:24:38 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "915",
+    "createdAt": "2025-03-12T22:24:38.142Z"
+}
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:24:38 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:24:38 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:24:38 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:24:39 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Response Time: 243 ms
+2025-03-13 01:24:39 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:24:38.621Z"
+}
+2025-03-13 01:24:39 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:24:39 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:24:39 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:24:39 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:24:39 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Response Time: 191 ms
+2025-03-13 01:24:39 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:24:39 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:24:39 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:25:47 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:25:48 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:25:48 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:25:48 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:25:48 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:25:48 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:25:49 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:25:49 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:25:49 [main] INFO  ApiSteps - Response Time: 846 ms
+2025-03-13 01:25:49 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:25:49 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:25:49 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:25:58 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:25:59 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:25:59 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:25:59 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-13 01:26:00 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Response Time: 908 ms
+2025-03-13 01:26:00 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "268",
+    "createdAt": "2025-03-12T22:25:59.924Z"
+}
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:26:00 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Response Time: 248 ms
+2025-03-13 01:26:00 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:26:00.418Z"
+}
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:26:00 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:26:00 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:26:01 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:26:01 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:26:01 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-13 01:26:01 [main] INFO  ApiSteps - Response Time: 227 ms
+2025-03-13 01:26:01 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-13 01:26:01 [main] INFO  ApiSteps - Response Body: 
+2025-03-13 01:26:01 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:38:34 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:38:35 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:38:35 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Response Time: 1034 ms
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "276",
+    "createdAt": "2025-03-12T22:38:36.132Z"
+}
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:38:36 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:38:36 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Response Time: 185 ms
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:38:36.567Z"
+}
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:38:37 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Response Time: 210 ms
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 01:38:37 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:42:11 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:42:11 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:42:11 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Response Time: 860 ms
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "948",
+    "createdAt": "2025-03-12T22:42:12.167Z"
+}
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:42:12 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:42:12 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Response Time: 224 ms
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:42:12.626Z"
+}
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:42:13 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Response Time: 180 ms
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 01:42:13 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:47:45 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:47:46 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:47:46 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Response Time: 816 ms
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "669",
+    "createdAt": "2025-03-12T22:47:47.048Z"
+}
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:47:47 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Response Time: 214 ms
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 01:47:47 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:47:47.441Z"
+}
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:47:48 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Response Time: 202 ms
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 01:47:48 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:52:47 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:52:47 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:52:47 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Time: 952 ms
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "621",
+    "createdAt": "2025-03-12T22:52:48.584Z"
+}
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:52:49 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Time: 221 ms
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:52:48.990Z"
+}
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:52:49 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Time: 187 ms
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 01:52:49 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 01:55:24 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:55:25 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 01:55:25 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Response Time: 818 ms
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "203",
+    "createdAt": "2025-03-12T22:55:26.023Z"
+}
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 01:55:26 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 01:55:26 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Response Time: 236 ms
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T22:55:26.482Z"
+}
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 01:55:27 [main] INFO  ApiSteps - Preparing request
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Response Time: 182 ms
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 01:55:27 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 02:03:07 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:03:07 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:03:08 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 02:03:08 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Time: 795 ms
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "582",
+    "createdAt": "2025-03-12T23:03:08.587Z"
+}
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 02:03:09 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Time: 296 ms
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T23:03:09.078Z"
+}
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 02:03:09 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Time: 191 ms
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 02:03:09 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 02:08:23 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:08:24 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 02:08:24 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Response Time: 808 ms
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "914",
+    "createdAt": "2025-03-12T23:08:24.935Z"
+}
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 02:08:25 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Response Time: 218 ms
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T23:08:25.292Z"
+}
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 02:08:25 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:08:25 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - Response Time: 193 ms
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 02:08:26 [main] INFO  ApiCommonLib - Actual Status Code 204 
+2025-03-13 02:11:22 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:11:22 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-13 02:11:22 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Response Time: 836 ms
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "70",
+    "createdAt": "2025-03-12T23:11:23.119Z"
+}
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-13 02:11:23 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-13 02:11:23 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Response Time: 208 ms
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-12T23:11:23.531Z"
+}
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-13 02:11:24 [main] INFO  ApiSteps - Preparing request
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Response Time: 229 ms
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-13 02:11:24 [main] INFO  ApiCommonLib - Actual Status Code 204 

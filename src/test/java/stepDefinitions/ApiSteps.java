@@ -5,6 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.LogManager;
@@ -40,16 +41,17 @@ public class ApiSteps {
 
     @When("I send a {string} request to {string}")
     public void sendRequest(String method, String endpoint) {
+        response = ApiCommonLib.sendApiRequest(method, endpoint, request);
 
-        log.info("Sending {} request to {}", method, endpoint);
-        // API çağrısını yap
-        response = ApiService.sendRequest(method, endpoint, request);
-        // Loglamalar
-        log.info("Endpoint: {}", endpoint);
-        log.info("HTTP Method: {}", method);
-        log.info("Response Time: {} ms", response.getTime());
-        log.info("HTTP Status Code: {}", response.getStatusCode());
-        log.info("Response Body: {}", response.asPrettyString());
+//        log.info("Sending {} request to {}", method, endpoint);
+//        // API çağrısını yap
+//        response = ApiService.sendRequest(method, endpoint, request);
+//        // Loglamalar
+//        log.info("Endpoint: {}", endpoint);
+//        log.info("HTTP Method: {}", method);
+//        log.info("Response Time: {} ms", response.getTime());
+//        log.info("HTTP Status Code: {}", response.getStatusCode());
+//        log.info("Response Body: {}", response.asPrettyString());
     }
 
     @Then("the response status code should be {int}")
@@ -63,6 +65,7 @@ public class ApiSteps {
         ApiCommonLib.validateResponseData(response, key, expectedValue);
     }
 
+    @Step ("I set the request body from file {string}")
     @And("I set the request body from file {string}")
     public void setRequestBodyFromFile(String fileName) {
 //       String filePath = "src/test/resources/data/" + fileName; // Adjust path
