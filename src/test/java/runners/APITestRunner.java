@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 )
 public class APITestRunner extends AbstractTestNGCucumberTests {
     @Override
-    @DataProvider(parallel = true) // API testlerini paralel çalıştırabiliriz
+    @DataProvider(parallel = false) // API testlerini paralel çalıştırabiliriz
     public Object[][] scenarios() {
         return super.scenarios();
     }

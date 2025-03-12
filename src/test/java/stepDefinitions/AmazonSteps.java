@@ -13,6 +13,8 @@ import utils.*;
 
 import java.util.List;
 
+
+
 public class AmazonSteps  {
     private static final Logger log = LogManager.getLogger(AmazonSteps.class);
     private WebDriver driver = DriverManager.getDriver();
@@ -144,7 +146,9 @@ public class AmazonSteps  {
             }
         }
     }
-    }
+
+
+}
 
 
 

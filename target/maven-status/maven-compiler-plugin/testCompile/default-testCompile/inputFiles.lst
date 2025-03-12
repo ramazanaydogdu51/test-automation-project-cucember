@@ -5,6 +5,9 @@ C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\runners\TestRunner.
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\runners\UITestRunner.java
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\stepDefinitions\AmazonSteps.java
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\stepDefinitions\ApiSteps.java
+C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\stepDefinitions\UsersSteps.java
+C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\utils\ApiCommonLib.java
+C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\utils\ApiService.java
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\utils\BaseTest.java
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\utils\CommonLib.java
 C:\Users\51ram\IdeaProjects\CucumberAmazonTest\src\test\java\utils\DriverManager.java

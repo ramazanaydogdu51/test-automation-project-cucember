@@ -1,23 +1,26 @@
-
-@API @Regression
+@API @Regression  @POST
 Feature: API Tests on Reqres
-  @POST
-  Scenario: Create a new user via API
-    Given I send a POST request to create a user with name "John" and job "Tester"
+
+
+  Scenario: Create a user successfully
+    Given I prepare a request for creating a user
+    And I set the request body with "name" "Ramazan" and "job" "Developer"
+    When I send a "POST" request to "https://reqres.in/api/users"
     Then the response status code should be 201
-    And I should see the created user's ID
+    And the response should contain the user ID
+    And the response should contain the "name" "Ramazan" and "job" "Developer"
 
-  Scenario: Update an existing user via API
-    Given I send a PUT request to update user with ID 2 to name "Mike" and job "Manager"
+    
+
+  Scenario: Update a user successfully
+    Given I prepare a request for creating a user
+    And I set the request body with "name" "Ramazan" and "job" "Developer"
+    When I send a "PUT" request to "https://reqres.in/api/users/0"
     Then the response status code should be 200
-    And I should see the updated user details
+    And the response should contain the "name" "Ramazan" and "job" "Developer"
 
-  Scenario: Delete a user via API
-    Given I send a DELETE request to remove user with ID 2
+
+  Scenario: Delete a user successfully
+    Given I prepare a request for creating a user
+    When I send a "DELETE" request to "https://reqres.in/api/users/1"
     Then the response status code should be 204
-
-  Scenario: Validate delayed response from API
-    Given I create a new user with name "Alice" and job "Developer"
-    When I send a request to get user details with a 5-second delay
-    Then the response status code should be 200
-    And I should see the user details in the response

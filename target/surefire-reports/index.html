@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Create a new user via API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Create a new user via API", "API Tests on Reqres")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate delayed response from API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Validate delayed response from API", "API Tests on Reqres")</a> <!-- method navigator-link -->
@@ -127,12 +122,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete a user via API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Delete a user via API", "API Tests on Reqres")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Create a new user via API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Create a new user via API", "API Tests on Reqres")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Update an existing user via API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Update an existing user via API", "API Tests on Reqres")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete a user via API&quot;, &quot;API Tests on Reqres&quot;)">runScenario("Delete a user via API", "API Tests on Reqres")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -155,43 +155,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Create a new user via API&quot;, &quot;API Tests on Reqres&quot;)">
-                  </a> <!-- runScenario("Create a new user via API", "API Tests on Reqres") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Create a new user via API","API Tests on Reqres")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;I should see the created user&apos;s ID&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;I should see the created user&apos;s ID&quot;)
-public void i_should_see_the_created_user_s_id() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Validate delayed response from API&quot;, &quot;API Tests on Reqres&quot;)">
                   </a> <!-- runScenario("Validate delayed response from API", "API Tests on Reqres") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Validate delayed response from API","API Tests on Reqres")</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
-	at stepDefinitions.ApiSteps.verifyStatusCode(ApiSteps.java:46)
-	at ✽.the response status code should be 200(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/api.feature:22)
+	at stepDefinitions.ApiSteps.verifyStatusCode(ApiSteps.java:48)
+	at ✽.the response status code should be 200(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/api.feature:21)
 ... Removed 7 stack frames
 </div> <!-- stack-trace -->
                   <em>
@@ -204,29 +174,33 @@ public void i_should_see_the_created_user_s_id() {
                   </a> <!-- runScenario("Open Amazon Home Page", "Amazon Web Testing") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Open Amazon Home Page","Amazon Web Testing")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: chrome=134.0.6998.37)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fde4f9646387c406622dc592d164ff86, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.37, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\51ram\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55448/devtoo..., se:cdpVersion: 134.0.6998.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fde4f9646387c406622dc592d164ff86
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at stepDefinitions.AmazonSteps.i_log_in_to_amazon(AmazonSteps.java:45)
-	at ✽.I log in to Amazon(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:9)
-... Removed 3 stack frames
+                  <div class="stack-trace">io.cucumber.core.exception.CucumberException: Failed to instantiate class stepDefinitions.AmazonSteps
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
+	at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
+	... 48 more
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;utils.DriverManager.driver&quot; is null
+	at utils.DriverManager.getDriver(DriverManager.java:45)
+	at stepDefinitions.AmazonSteps.&lt;init&gt;(AmazonSteps.java:18)
+	... 51 more
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -242,10 +216,10 @@ Session ID: fde4f9646387c406622dc592d164ff86
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Delete a user via API&quot;, &quot;API Tests on Reqres&quot;)">
-                  </a> <!-- runScenario("Delete a user via API", "API Tests on Reqres") -->
+                  <a name="runScenario(&quot;Create a new user via API&quot;, &quot;API Tests on Reqres&quot;)">
+                  </a> <!-- runScenario("Create a new user via API", "API Tests on Reqres") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Delete a user via API","API Tests on Reqres")</span>
+                  <span class="parameters">("Create a new user via API","API Tests on Reqres")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -256,6 +230,16 @@ Session ID: fde4f9646387c406622dc592d164ff86
                   </a> <!-- runScenario("Update an existing user via API", "API Tests on Reqres") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Update an existing user via API","API Tests on Reqres")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Delete a user via API&quot;, &quot;API Tests on Reqres&quot;)">
+                  </a> <!-- runScenario("Delete a user via API", "API Tests on Reqres") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Delete a user via API","API Tests on Reqres")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -325,28 +309,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestRunner')
-data.setCell(0, 3, 6949);
+data.setCell(0, 3, 5401);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runners.TestRunner')
-data.setCell(1, 3, 5510);
+data.setCell(1, 3, 1682);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'runners.TestRunner')
-data.setCell(2, 3, 1367);
+data.setCell(2, 3, 1001);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'runners.TestRunner')
-data.setCell(3, 3, 255);
+data.setCell(3, 3, 247);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'runners.TestRunner')
-data.setCell(4, 3, 246);
+data.setCell(4, 3, 232);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -374,42 +358,40 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7ef60c02)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@300bb303)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Open Amazon Home Page", "Amazon Web Testing")</span>
-                <span class="method-start">189 ms</span>
+                <span class="method-start">206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">runScenario("Create a new user via API", "API Tests on Reqres")</span>
-                <span class="method-start">7148 ms</span>
+                <span class="method-start">1221 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Update an existing user via API", "API Tests on Reqres")</span>
-                <span class="method-start">8515 ms</span>
+                <span class="method-start">2919 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Delete a user via API", "API Tests on Reqres")</span>
-                <span class="method-start">8777 ms</span>
+                <span class="method-start">3151 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Validate delayed response from API", "API Tests on Reqres")</span>
-                <span class="method-start">9036 ms</span>
+                <span class="method-start">3403 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14552 ms</span>
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">8820 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">14836 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8820 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

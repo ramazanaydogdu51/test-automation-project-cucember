@@ -939,3 +939,1000 @@ Session ID: af8720a7c67ce729562c8ad4caca66da
 2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  AmazonSteps - İncelenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
 2025-03-12 02:03:13 [TestNG-PoolService-1] INFO  AmazonSteps - İndirimde değil, sepete eklenebilir: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
 2025-03-12 02:03:14 [TestNG-PoolService-1] INFO  AmazonSteps - Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-12 16:05:32 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:05:34 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"125","createdAt":"2025-03-12T13:05:34.060Z"}
+2025-03-12 16:05:34 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 125
+2025-03-12 16:05:34 [TestNG-PoolService-1] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 16:05:57 [TestNG-PoolService-4] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 16:05:57 [TestNG-PoolService-2] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 16:05:57 [TestNG-PoolService-3] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 16:05:57 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:05:58 [TestNG-PoolService-3] INFO  ApiSteps - Response status: 200
+2025-03-12 16:05:58 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 200
+2025-03-12 16:06:19 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 16:06:19 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 16:06:39 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 16:06:39 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 16:07:03 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 16:07:03 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 16:07:04 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 16:07:13 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 16:07:13 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 16:07:13 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 16:07:21 [TestNG-PoolService-4] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 16:07:21 [TestNG-PoolService-3] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 16:07:21 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:07:21 [TestNG-PoolService-2] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 16:07:22 [TestNG-PoolService-3] INFO  ApiSteps - Response status: 204
+2025-03-12 16:07:22 [TestNG-PoolService-1] INFO  ApiSteps - Response: 
+2025-03-12 16:07:22 [TestNG-PoolService-3] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 201
+2025-03-12 16:07:22 [TestNG-PoolService-4] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"593","createdAt":"2025-03-12T13:07:22.346Z"}
+2025-03-12 16:07:22 [TestNG-PoolService-2] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-12T13:07:22.346Z"}
+2025-03-12 16:07:22 [TestNG-PoolService-2] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 201
+2025-03-12 16:07:55 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:07:56 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"741","createdAt":"2025-03-12T13:07:56.005Z"}
+2025-03-12 16:07:56 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 741
+2025-03-12 16:07:56 [TestNG-PoolService-1] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 16:08:10 [TestNG-PoolService-1] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:08:12 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"686","createdAt":"2025-03-12T13:08:11.658Z"}
+2025-03-12 16:08:12 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 686
+2025-03-12 16:08:12 [TestNG-PoolService-1] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 16:08:34 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 16:08:34 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 16:08:34 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 16:08:34 [main] INFO  ApiSteps - Creating a user with name: John and job: Tester
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Response: {"name":"John","job":"Tester","id":"192","createdAt":"2025-03-12T13:08:35.574Z"}
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Created User ID: 192
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Verifying response status code: Expected = 201, Actual = 201
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Updating user with ID: 2 to name: Mike and job: Manager
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Response: {"name":"Mike","job":"Manager","updatedAt":"2025-03-12T13:08:35.931Z"}
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 200
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Verifying updated user details...
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Updated Name: Mike
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Updated Job: Manager
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Deleting user with ID: 2
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Response status: 204
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Verifying response status code: Expected = 204, Actual = 204
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Creating a user with name: Alice and job: Developer
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Response: {"name":"Alice","job":"Developer","id":"930","createdAt":"2025-03-12T13:08:36.406Z"}
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Created User ID: 930
+2025-03-12 16:08:36 [main] INFO  ApiSteps - Fetching user details with a 5-second delay...
+2025-03-12 16:08:42 [main] INFO  ApiSteps - Response: {}
+2025-03-12 16:08:42 [main] INFO  ApiSteps - Verifying response status code: Expected = 200, Actual = 404
+2025-03-12 16:10:36 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to /users
+2025-03-12 16:10:39 [TestNG-PoolService-1] INFO  ApiSteps - Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+2025-03-12 16:55:12 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 16:55:12 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 16:55:12 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to /users
+2025-03-12 16:55:14 [TestNG-PoolService-1] INFO  ApiSteps - Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+2025-03-12 16:59:15 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 16:59:16 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 16:59:16 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 16:59:16 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to /users
+2025-03-12 16:59:18 [TestNG-PoolService-1] INFO  ApiSteps - Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+2025-03-12 17:01:20 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:01:21 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:01:21 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:01:21 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:01:43 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:01:43 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:01:43 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:01:43 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to http://reqres.in/api/users
+2025-03-12 17:02:27 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:02:28 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:02:28 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:02:28 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:03:08 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:03:09 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:03:09 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:03:09 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:03:10 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:03:10 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"602","createdAt":"2025-03-12T14:03:09.950Z"}
+2025-03-12 17:03:10 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 602
+2025-03-12 17:21:45 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:21:46 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:21:46 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:21:46 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:21:47 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:21:47 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"720","createdAt":"2025-03-12T14:21:46.914Z"}
+2025-03-12 17:29:06 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:29:07 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:29:07 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:29:07 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:29:08 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:29:08 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"763","createdAt":"2025-03-12T14:29:07.555Z"}
+2025-03-12 17:29:08 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 763
+2025-03-12 17:30:36 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:30:36 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:30:36 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:30:36 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:30:37 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:30:37 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"525","createdAt":"2025-03-12T14:30:37.095Z"}
+2025-03-12 17:30:37 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 525
+2025-03-12 17:30:37 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:30:37 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 17:31:05 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:31:06 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:31:06 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:31:06 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:31:07 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:31:07 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"632","createdAt":"2025-03-12T14:31:06.973Z"}
+2025-03-12 17:31:07 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 632
+2025-03-12 17:31:07 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:31:23 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:31:23 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with name: Ramazan and job: Developer
+2025-03-12 17:31:23 [TestNG-PoolService-1] INFO  ApiSteps - Request body with name: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:31:23 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:31:24 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:31:24 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"617","createdAt":"2025-03-12T14:31:24.081Z"}
+2025-03-12 17:31:24 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 617
+2025-03-12 17:31:24 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:31:24 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 17:40:29 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:40:30 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 17:40:30 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 17:40:30 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 17:40:31 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 17:40:31 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Developer","id":"436","createdAt":"2025-03-12T14:40:30.950Z"}
+2025-03-12 17:40:31 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 436
+2025-03-12 17:40:31 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:40:31 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 17:51:12 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:51:13 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:51:13 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:51:13 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users
+2025-03-12 17:54:54 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:54:55 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:54:55 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:54:55 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 17:55:20 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:55:21 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:55:21 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:55:21 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 17:55:22 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 17:55:22 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Tester","updatedAt":"2025-03-12T14:55:21.739Z"}
+2025-03-12 17:55:31 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:55:32 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:55:32 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:55:32 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 17:55:33 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 17:55:33 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Tester","updatedAt":"2025-03-12T14:55:32.579Z"}
+2025-03-12 17:55:57 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:55:57 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:55:57 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:55:57 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 17:55:58 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 17:55:58 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Tester","updatedAt":"2025-03-12T14:55:58.338Z"}
+2025-03-12 17:55:58 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:55:58 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Tester
+2025-03-12 17:57:06 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 17:57:06 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 17:57:06 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 17:57:06 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 17:57:07 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 17:57:07 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Tester","updatedAt":"2025-03-12T14:57:07.066Z"}
+2025-03-12 17:57:07 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 17:57:07 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Tester
+2025-03-12 18:09:08 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:09:09 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Tester
+2025-03-12 18:09:09 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Tester"} 
+2025-03-12 18:09:09 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/1
+2025-03-12 18:09:10 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 18:09:10 [TestNG-PoolService-1] INFO  ApiSteps - Response: {"name":"Ramazan","job":"Tester","updatedAt":"2025-03-12T15:09:09.945Z"}
+2025-03-12 18:09:42 [TestNG-PoolService-1] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 18:09:59 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:09:59 [TestNG-PoolService-1] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 18:10:01 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 18:10:01 [TestNG-PoolService-1] INFO  ApiSteps - Response: 
+2025-03-12 18:30:08 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:30:09 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 18:30:10 [TestNG-PoolService-1] INFO  ApiSteps - 🌎 Endpoint: https://reqres.in/api/users/1
+2025-03-12 18:30:10 [TestNG-PoolService-1] INFO  ApiSteps - 🔄 HTTP Method: DELETE
+2025-03-12 18:30:10 [TestNG-PoolService-1] INFO  ApiSteps - ⏳ Response Time: 1240 ms
+2025-03-12 18:30:10 [TestNG-PoolService-1] INFO  ApiSteps - 📬 HTTP Status Code: 204
+2025-03-12 18:30:10 [TestNG-PoolService-1] INFO  ApiSteps - 📥 Response Body: 
+2025-03-12 18:31:00 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:31:01 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:31:01 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:31:01 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - 🌎 Endpoint: https://reqres.in/api/users
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - 🔄 HTTP Method: POST
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - ⏳ Response Time: 1099 ms
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - 📬 HTTP Status Code: 201
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - 📥 Response Body: {"name":"Ramazan","job":"Developer","id":"970","createdAt":"2025-03-12T15:31:01.794Z"}
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 970
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:31:02 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:32:11 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:32:12 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:32:12 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:32:12 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - 🌎 Endpoint: https://reqres.in/api/users
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - 🔄 HTTP Method: POST
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - ⏳ Response Time: 1158 ms
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - 📬 HTTP Status Code: 201
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - 📥 Response Body: {"name":"Ramazan","job":"Developer","id":"243","createdAt":"2025-03-12T15:32:12.688Z"}
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 243
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:32:13 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:33:47 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:33:48 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:33:48 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:33:48 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 823 ms
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {"name":"Ramazan","job":"Developer","id":"697","createdAt":"2025-03-12T15:33:48.800Z"}
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 697
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:33:49 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:34:32 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:34:32 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:34:32 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:34:32 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 916 ms
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: io.restassured.internal.RestAssuredResponseImpl@1ea319b
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 425
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:34:33 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:35:01 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:35:01 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:35:01 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:35:01 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 835 ms
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "246",
+    "createdAt": "2025-03-12T15:35:02.201Z"
+}
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 246
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:35:02 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:35:50 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:35:50 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:35:50 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:35:50 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 800 ms
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {"name":"Ramazan","job":"Developer","id":"483","createdAt":"2025-03-12T15:35:51.174Z"}
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 483
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:35:51 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:36:24 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:36:24 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:36:24 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:36:24 [TestNG-PoolService-1] INFO  ApiSteps - ⚡ Sending POST request to https://reqres.in/api/users
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 863 ms
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "515",
+    "createdAt": "2025-03-12T15:36:25.276Z"
+}
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 515
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 18:36:25 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 18:37:48 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:37:48 [TestNG-PoolService-1] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 18:37:49 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 18:37:49 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 18:37:49 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 764 ms
+2025-03-12 18:37:49 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 18:37:49 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: 
+2025-03-12 18:42:37 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:42:37 [TestNG-PoolService-1] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 18:42:39 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 18:42:39 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 18:42:39 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 869 ms
+2025-03-12 18:42:39 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 18:42:39 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: 
+2025-03-12 18:43:00 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:43:00 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:43:00 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:43:00 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users
+2025-03-12 18:43:02 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:43:02 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 18:43:02 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 869 ms
+2025-03-12 18:43:02 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 404
+2025-03-12 18:43:02 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: <html lang="en">
+  <head>
+    <script>
+            ;(function (w, d, s, l, i) {
+                w[l] = w[l] || []
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                })
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&amp;l=' + l : ''
+                j.async = true
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+                f.parentNode.insertBefore(j, f)
+            })(window, document, 'script', 'dataLayer', 'GTM-KB622KF')
+        </script>
+    <script src="https://js.stripe.com/v3/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="description" content="A hosted REST-API ready to respond to your AJAX requests"/>
+    <title>
+            Reqres - A hosted REST-API ready to respond to your AJAX requests
+        </title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <script type="text/javascript" src="//m.servedby-buysellads.com/monetization.custom.js"/>
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo">
+            <a shape="rect" href="/">
+              <img src="/img/logo.png" alt=""/>
+            </a>
+          </h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">
+                        Test your front-end against a real API
+                    </h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                                    No more tedious sample data creation, we've
+                                    got it covered.
+                                </p>
+              </div>
+              <i class="fa fa-cloud-download"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                                    Develop with real response codes. GET, POST,
+                                    PUT &amp; DELETE supported.
+                                </p>
+              </div>
+              <i class="fa fa-code"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+
+                                    24/7                   <strong>
+                    <em>free</em>
+                  </strong>
+ access
+                                    in your development phases. Go nuts.
+                                                </p>
+              </div>
+              <i class="fa fa-toggle-on"/>
+            </div>
+          </section>
+          <h2 class="tagline">
+                        A hosted REST-API ready to respond to your AJAX
+                        requests.
+                    </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"/>
+          </div>
+          <div class="feature-ad" id="cc-ad">
+            <a shape="rect" href="">
+              <img src="" alt="Ad"/>
+            </a>
+          </div>
+          <script id="_carbonads_js" async="async" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin"/>
+        </div>
+      </main>
+    </div>
+    <div class="container">404</div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark"/>
+        <p class="t-center">
+
+                    Made for developers and designers by
+                              <a shape="rect" href="https://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"/>
+    <script src="/js/app.js"/>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-174008107-1"/>
+    <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-174008107-1')
+        </script>
+    <script>
+            ;(function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r
+                ;(i[r] =
+                    i[r] ||
+                    function () {
+                        ;(i[r].q = i[r].q || []).push(arguments)
+                    }),
+                    (i[r].l = 1 * new Date())
+                ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+                a.async = 1
+                a.src = g
+                m.parentNode.insertBefore(a, m)
+            })(
+                window,
+                document,
+                'script',
+                '//www.google-analytics.com/analytics.js',
+                'ga'
+            )
+
+            ga('create', 'UA-55888877-1', 'auto')
+            ga('send', 'pageview')
+        </script>
+    <script>
+            ;(function () {
+                if (typeof _bsa !== 'undefined' &amp;&amp; _bsa) {
+                    _bsa.init(
+                        'custom',
+                        'CEBIP53J',
+                        'placement:reqresin-sponsor',
+                        {
+                            target: '#impeccable-js',
+                            template: `
+        &lt;a href="##link##" rel="sponsored noopener" target="_blank" title="##company## — ##tagline##"&gt;
+        &lt;img src="##logo##" style="background-color: ##backgroundColor##"&gt;
+        &lt;div class="sponsor-description"&gt;##description##&lt;/div&gt;
+        &lt;div class="sponsor-cta" style="background-color: ##backgroundColor##; color: ##textColor##"&gt;##callToAction##&lt;/div&gt;
+        &lt;/a&gt;
+        `,
+                        }
+                    )
+                }
+            })()
+        </script>
+  </body>
+</html>
+2025-03-12 18:43:13 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:43:14 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:43:14 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:43:14 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 18:43:15 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 18:43:15 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 18:43:15 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 805 ms
+2025-03-12 18:43:15 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 18:43:15 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "updatedAt": "2025-03-12T15:43:14.914Z"
+}
+2025-03-12 18:51:23 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:51:23 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:51:24 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:51:24 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 18:51:25 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 18:51:25 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 18:51:25 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 903 ms
+2025-03-12 18:51:25 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 18:51:25 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "updatedAt": "2025-03-12T15:51:24.693Z"
+}
+2025-03-12 18:51:40 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:51:41 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:51:41 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:51:41 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 18:51:42 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 18:51:42 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 18:51:42 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 868 ms
+2025-03-12 18:51:42 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 18:51:42 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "updatedAt": "2025-03-12T15:51:41.789Z"
+}
+2025-03-12 18:54:52 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:54:53 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:54:53 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:54:53 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 1063 ms
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "id": "431",
+    "createdAt": "2025-03-12T15:54:54.399Z"
+}
+2025-03-12 18:54:54 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 431
+2025-03-12 18:59:41 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 18:59:42 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 18:59:42 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 18:59:42 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 890 ms
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "id": "474",
+    "createdAt": "2025-03-12T15:59:42.925Z"
+}
+2025-03-12 18:59:43 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 474
+2025-03-12 19:00:17 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:00:28 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:00:56 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 832 ms
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "id": "484",
+    "createdAt": "2025-03-12T16:00:57.133Z"
+}
+2025-03-12 19:00:57 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:01:56 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:01:56 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:01:56 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:01:56 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 932 ms
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "891",
+    "createdAt": "2025-03-12T16:01:57.595Z"
+}
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 891
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:01:58 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:02:38 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:02:38 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 876 ms
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "id": "947",
+    "createdAt": "2025-03-12T16:02:39.525Z"
+}
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:02:40 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 947
+2025-03-12 19:05:22 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:05:22 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:05:22 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:05:22 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:05:23 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:05:23 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:05:23 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 974 ms
+2025-03-12 19:05:23 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:05:23 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:05:23.335Z"
+}
+2025-03-12 19:05:24 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:05:24 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:37:27 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:37:27 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:37:27 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:37:27 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 901 ms
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:37:28.347Z"
+}
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:37:28 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:38:32 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:38:32 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:38:32 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:38:32 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 855 ms
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:38:33.504Z"
+}
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:38:34 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:38:52 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:38:53 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:38:53 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:38:53 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 919 ms
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "428",
+    "createdAt": "2025-03-12T16:38:54.106Z"
+}
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 428
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:38:54 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:39:06 [TestNG-PoolService-2] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:39:06 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:39:06 [TestNG-PoolService-3] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:39:07 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:39:07 [TestNG-PoolService-3] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:39:07 [TestNG-PoolService-2] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:39:07 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:39:07 [TestNG-PoolService-2] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:39:07 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:39:07 [TestNG-PoolService-2] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:39:08 [TestNG-PoolService-3] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:39:08 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:39:08 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:39:08 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:39:08 [TestNG-PoolService-3] INFO  ApiSteps - Response Time: 911 ms
+2025-03-12 19:39:08 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:39:08 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 911 ms
+2025-03-12 19:39:08 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiSteps - Response Time: 917 ms
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:39:08 [TestNG-PoolService-3] INFO  ApiSteps - Response Body: 
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:39:08.232Z"
+}
+2025-03-12 19:39:08 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "845",
+    "createdAt": "2025-03-12T16:39:08.204Z"
+}
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:39:08 [TestNG-PoolService-2] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:39:57 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:39:57 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:39:57 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:39:57 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 1196 ms
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "190",
+    "createdAt": "2025-03-12T16:39:58.681Z"
+}
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 190
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:39:59 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:40:06 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:40:06 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:40:06 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:40:06 [TestNG-PoolService-1] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 875 ms
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:40:07.591Z"
+}
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:40:08 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:40:34 [TestNG-PoolService-2] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:40:34 [TestNG-PoolService-3] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:40:34 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:40:34 [TestNG-PoolService-2] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:40:34 [TestNG-PoolService-3] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:40:34 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:40:34 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:40:34 [TestNG-PoolService-2] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:40:34 [TestNG-PoolService-2] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:40:34 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:40:36 [TestNG-PoolService-2] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:40:36 [TestNG-PoolService-3] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:40:36 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:40:36 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:40:36 [TestNG-PoolService-3] INFO  ApiSteps - Response Time: 918 ms
+2025-03-12 19:40:36 [TestNG-PoolService-2] INFO  ApiSteps - Response Time: 918 ms
+2025-03-12 19:40:36 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:40:36 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 929 ms
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:40:36 [TestNG-PoolService-3] INFO  ApiSteps - Response Body: 
+2025-03-12 19:40:36 [TestNG-PoolService-2] INFO  ApiSteps - Response Body: 
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "725",
+    "createdAt": "2025-03-12T16:40:35.650Z"
+}
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiSteps - Created User ID: 725
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:40:36 [TestNG-PoolService-1] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:41:20 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:41:20 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 19:41:20 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 19:42:02 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:42:02 [main] INFO  DriverManager - Initializing WebDriver for: chrome
+2025-03-12 19:42:02 [main] INFO  DriverManager - ChromeDriver initialized with user data.
+2025-03-12 19:42:12 [TestNG-PoolService-3] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:12 [TestNG-PoolService-2] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:12 [TestNG-PoolService-1] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:13 [TestNG-PoolService-1] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:42:13 [TestNG-PoolService-2] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:42:13 [TestNG-PoolService-3] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:42:13 [TestNG-PoolService-1] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:42:13 [TestNG-PoolService-2] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:42:13 [TestNG-PoolService-1] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:42:13 [TestNG-PoolService-2] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:42:14 [TestNG-PoolService-2] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:42:14 [TestNG-PoolService-1] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:42:14 [TestNG-PoolService-3] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:42:14 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:42:14 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:42:14 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:42:14 [TestNG-PoolService-2] INFO  ApiSteps - Response Time: 803 ms
+2025-03-12 19:42:14 [TestNG-PoolService-1] INFO  ApiSteps - Response Time: 803 ms
+2025-03-12 19:42:14 [TestNG-PoolService-3] INFO  ApiSteps - Response Time: 803 ms
+2025-03-12 19:42:14 [TestNG-PoolService-2] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:42:14 [TestNG-PoolService-1] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:42:14 [TestNG-PoolService-3] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:42:14 [TestNG-PoolService-3] INFO  ApiSteps - Response Body: 
+2025-03-12 19:42:14 [TestNG-PoolService-1] INFO  ApiSteps - Response Body: 
+2025-03-12 19:42:14 [TestNG-PoolService-2] INFO  ApiSteps - Response Body: 
+2025-03-12 19:42:23 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:23 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:42:23 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:42:23 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:42:24 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Response Time: 794 ms
+2025-03-12 19:42:24 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "5",
+    "createdAt": "2025-03-12T16:42:24.172Z"
+}
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Created User ID: 5
+2025-03-12 19:42:24 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:42:24 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:42:24 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:42:25 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Response Time: 229 ms
+2025-03-12 19:42:25 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:42:24.617Z"
+}
+2025-03-12 19:42:25 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:42:25 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:42:25 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Response Time: 198 ms
+2025-03-12 19:42:25 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:42:25 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 19:43:03 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:43:03 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:50:02 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:50:02 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:50:06 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:50:07 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:50:07 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:50:07 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:50:07 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:50:08 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:50:08 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:50:08 [main] INFO  ApiSteps - Response Time: 602 ms
+2025-03-12 19:50:08 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:50:08 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "8",
+    "createdAt": "2025-03-12T16:50:08.141Z"
+}
+2025-03-12 19:50:08 [main] INFO  ApiSteps - Created User ID: 8
+2025-03-12 19:50:08 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:50:08 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:50:08 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:50:22 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:50:22 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:50:25 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:50:25 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:50:26 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:50:26 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:50:26 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:50:27 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:50:27 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:50:27 [main] INFO  ApiSteps - Response Time: 647 ms
+2025-03-12 19:50:27 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:50:27 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "542",
+    "createdAt": "2025-03-12T16:50:26.574Z"
+}
+2025-03-12 19:50:27 [main] INFO  ApiSteps - Created User ID: 542
+2025-03-12 19:50:27 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:50:27 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:50:27 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:50:28 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:50:30 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:50:30 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:50:30 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:50:30 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:50:30 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:50:31 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:50:31 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:50:31 [main] INFO  ApiSteps - Response Time: 257 ms
+2025-03-12 19:50:31 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:50:31 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:50:30.770Z"
+}
+2025-03-12 19:50:31 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:50:31 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:50:31 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:50:32 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:50:34 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:50:35 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:50:35 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:50:35 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:50:35 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:50:35 [main] INFO  ApiSteps - Response Time: 190 ms
+2025-03-12 19:50:35 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:50:35 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 19:50:35 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:55:53 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:55:53 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:55:56 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:55:57 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:55:57 [main] INFO  ApiSteps - Setting request body with firstValue: <name> and secondValue: Developer
+2025-03-12 19:55:57 [main] INFO  ApiSteps - Request body with firstValue: {"name":"<name>","job":"Developer"} 
+2025-03-12 19:55:57 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:55:59 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:55:59 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:55:59 [main] INFO  ApiSteps - Response Time: 780 ms
+2025-03-12 19:55:59 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:55:59 [main] INFO  ApiSteps - Response Body: {
+    "name": "<name>",
+    "job": "Developer",
+    "id": "618",
+    "createdAt": "2025-03-12T16:55:58.520Z"
+}
+2025-03-12 19:55:59 [main] INFO  ApiSteps - Created User ID: 618
+2025-03-12 19:55:59 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:55:59 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:56:02 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:56:03 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Response Time: 225 ms
+2025-03-12 19:56:03 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:56:03 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:56:02.869Z"
+}
+2025-03-12 19:56:03 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:56:03 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:56:03 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:56:04 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:56:06 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:56:07 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:56:07 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:56:07 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:56:07 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:56:07 [main] INFO  ApiSteps - Response Time: 175 ms
+2025-03-12 19:56:07 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:56:07 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 19:56:07 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:57:52 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-12 19:57:52 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:57:56 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:57:56 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:57:57 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:57:57 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:57:57 [main] INFO  ApiSteps - Sending POST request to https://reqres.in/api/users
+2025-03-12 19:57:58 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users
+2025-03-12 19:57:58 [main] INFO  ApiSteps - HTTP Method: POST
+2025-03-12 19:57:58 [main] INFO  ApiSteps - Response Time: 747 ms
+2025-03-12 19:57:58 [main] INFO  ApiSteps - HTTP Status Code: 201
+2025-03-12 19:57:58 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "id": "278",
+    "createdAt": "2025-03-12T16:57:57.861Z"
+}
+2025-03-12 19:57:58 [main] INFO  ApiSteps - Created User ID: 278
+2025-03-12 19:57:58 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:57:58 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:57:58 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:57:59 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:58:01 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Setting request body with firstValue: Ramazan and secondValue: Developer
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Request body with firstValue: {"name":"Ramazan","job":"Developer"} 
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Sending PUT request to https://reqres.in/api/users/0
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/0
+2025-03-12 19:58:02 [main] INFO  ApiSteps - HTTP Method: PUT
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Response Time: 224 ms
+2025-03-12 19:58:02 [main] INFO  ApiSteps - HTTP Status Code: 200
+2025-03-12 19:58:02 [main] INFO  ApiSteps - Response Body: {
+    "name": "Ramazan",
+    "job": "Developer",
+    "updatedAt": "2025-03-12T16:58:01.833Z"
+}
+2025-03-12 19:58:02 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan, Actual = Ramazan
+2025-03-12 19:58:02 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer, Actual = Developer
+2025-03-12 19:58:02 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-12 19:58:03 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-12 19:58:05 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-12 19:58:06 [main] INFO  ApiSteps - Preparing request for user creation
+2025-03-12 19:58:06 [main] INFO  ApiSteps - Sending DELETE request to https://reqres.in/api/users/1
+2025-03-12 19:58:06 [main] INFO  ApiSteps - Endpoint: https://reqres.in/api/users/1
+2025-03-12 19:58:06 [main] INFO  ApiSteps - HTTP Method: DELETE
+2025-03-12 19:58:06 [main] INFO  ApiSteps - Response Time: 178 ms
+2025-03-12 19:58:06 [main] INFO  ApiSteps - HTTP Status Code: 204
+2025-03-12 19:58:06 [main] INFO  ApiSteps - Response Body: 
+2025-03-12 19:58:06 [main] INFO  DriverManager - Closing WebDriver...

@@ -4,5 +4,5 @@
     "username": "your-email@example.com",
     "password": "your-secure-password"
   },
-  "browser": "chrome"
+  "browser": "firefox"
 }
