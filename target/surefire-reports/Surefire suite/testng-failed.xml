@@ -3,24 +3,6 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="runners.RegressionTestRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="setupAllure"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- runners.RegressionTestRunner -->
-      <class name="runners.UITestRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="setupAllure"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- runners.UITestRunner -->
       <class name="runners.TestRunner">
         <methods>
           <include name="setUpClass"/>
@@ -30,6 +12,24 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- runners.TestRunner -->
+      <class name="runners.UITestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setupAllure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- runners.UITestRunner -->
+      <class name="runners.RegressionTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setupAllure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- runners.RegressionTestRunner -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

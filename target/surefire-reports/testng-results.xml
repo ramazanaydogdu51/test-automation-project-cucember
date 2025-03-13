@@ -2,33 +2,33 @@
 <testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T01:03:31 TRT" name="Surefire suite" finished-at="2025-03-13T01:03:53 TRT" duration-ms="22575">
+  <suite started-at="2025-03-13T13:07:12 TRT" name="Surefire suite" finished-at="2025-03-13T13:07:56 TRT" duration-ms="44113">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@31ea9581]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@8462f31]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24569dba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@5ddeb7cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-13T01:03:31 TRT" name="Surefire test" finished-at="2025-03-13T01:03:53 TRT" duration-ms="22575">
+    <test started-at="2025-03-13T13:07:12 TRT" name="Surefire test" finished-at="2025-03-13T13:07:56 TRT" duration-ms="44113">
       <class name="runners.APITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:31 TRT" name="setUpClass" finished-at="2025-03-13T01:03:31 TRT" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="setUpClass" finished-at="2025-03-13T13:07:12 TRT" duration-ms="207" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@39342614]]>
+                <![CDATA[org.testng.TestRunner@6e66b498]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:31 TRT" name="setupAllure" finished-at="2025-03-13T01:03:31 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="setupAllure" finished-at="2025-03-13T13:07:12 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:31 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:33 TRT" duration-ms="2378" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:14 TRT" duration-ms="2471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:33 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:34 TRT" duration-ms="364" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:14 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:15 TRT" duration-ms="290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:34 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:34 TRT" duration-ms="267" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:15 TRT" duration-ms="256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,32 +76,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:34 TRT" name="tearDown" finished-at="2025-03-13T01:03:34 TRT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="tearDown" finished-at="2025-03-13T13:07:15 TRT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.APITestRunner@31ea9581]" started-at="2025-03-13T01:03:34 TRT" name="tearDownClass" finished-at="2025-03-13T01:03:34 TRT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:15 TRT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runners.APITestRunner -->
       <class name="runners.UITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.UITestRunner@5ddeb7cb]" started-at="2025-03-13T01:03:49 TRT" name="setUpClass" finished-at="2025-03-13T01:03:49 TRT" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="setUpClass" finished-at="2025-03-13T13:07:40 TRT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@39342614]]>
+                <![CDATA[org.testng.TestRunner@6e66b498]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.UITestRunner@5ddeb7cb]" started-at="2025-03-13T01:03:49 TRT" name="setupAllure" finished-at="2025-03-13T01:03:49 TRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@5ddeb7cb]" started-at="2025-03-13T01:03:49 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:53 TRT" duration-ms="4608" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:55 TRT" duration-ms="14501" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -114,272 +110,59 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f9f754e-ba3f-4c98-a11b-5b3375a42589, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19700, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 6f9f754e-ba3f-4c98-a11b-5b3375a42589]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f9f754e-ba3f-4c98-a11b-5b3375a42589, screenshot {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19700, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 6f9f754e-ba3f-4c98-a11b-5b3375a42589
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:330)
-at utils.UICommonLib.captureScreenshot(UICommonLib.java:224)
-at stepDefinitions.AmazonSteps.iOpenTheWebsite(AmazonSteps.java:39)
-at ✽.I open the "amazonhome" website(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.UITestRunner@5ddeb7cb]" started-at="2025-03-13T01:03:53 TRT" name="tearDown" finished-at="2025-03-13T01:03:53 TRT" duration-ms="14" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[WebDriver session does not exist, or is not active
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f9f754e-ba3f-4c98-a11b-5b3375a42589, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19700, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 6f9f754e-ba3f-4c98-a11b-5b3375a42589]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f9f754e-ba3f-4c98-a11b-5b3375a42589, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19700, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 6f9f754e-ba3f-4c98-a11b-5b3375a42589
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.UITestRunner@5ddeb7cb]" started-at="2025-03-13T01:03:53 TRT" name="tearDownClass" finished-at="2025-03-13T01:03:53 TRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.UITestRunner -->
-      <class name="runners.RegressionTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:34 TRT" name="setUpClass" finished-at="2025-03-13T01:03:34 TRT" duration-ms="21" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@39342614]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:34 TRT" name="setupAllure" finished-at="2025-03-13T01:03:34 TRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:34 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:47 TRT" duration-ms="13238" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open Amazon Home Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Amazon Web Testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7213ebe8-5ef5-42f6-9214-902560a1b23b, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7213ebe8-5ef5-42f6-9214-902560a1b23b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7213ebe8-5ef5-42f6-9214-902560a1b23b, findElement {using=xpath, value=//input[@id='twotabsearchtextbox']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7213ebe8-5ef5-42f6-9214-902560a1b23b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
 at utils.UICommonLib.clickElement(UICommonLib.java:62)
 at stepDefinitions.AmazonSteps.iClick(AmazonSteps.java:78)
 at ✽.I click "HomePage" "searchBox"(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:9)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:47 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:48 TRT" duration-ms="207" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Create a user successfully"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["API Tests on Reqres"]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="setupAllure" finished-at="2025-03-13T13:07:40 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:48 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:48 TRT" duration-ms="202" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Update a user successfully"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["API Tests on Reqres"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:48 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:48 TRT" duration-ms="213" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Delete a user successfully"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["API Tests on Reqres"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:48 TRT" name="tearDown" finished-at="2025-03-13T01:03:48 TRT" duration-ms="26" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7213ebe8-5ef5-42f6-9214-902560a1b23b, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7213ebe8-5ef5-42f6-9214-902560a1b23b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7213ebe8-5ef5-42f6-9214-902560a1b23b, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 7213ebe8-5ef5-42f6-9214-902560a1b23b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        </test-method> <!-- setupAllure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:55 TRT" name="tearDown" finished-at="2025-03-13T13:07:56 TRT" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RegressionTestRunner@8462f31]" started-at="2025-03-13T01:03:48 TRT" name="tearDownClass" finished-at="2025-03-13T01:03:48 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:56 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:56 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.RegressionTestRunner -->
-      <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:48 TRT" name="setUpClass" finished-at="2025-03-13T01:03:48 TRT" duration-ms="13" status="PASS">
+      </class> <!-- runners.UITestRunner -->
+      <class name="runners.RegressionTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="setUpClass" finished-at="2025-03-13T13:07:15 TRT" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@39342614]]>
+                <![CDATA[org.testng.TestRunner@6e66b498]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:48 TRT" name="setupAllure" finished-at="2025-03-13T01:03:48 TRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:48 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:48 TRT" duration-ms="15" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:24 TRT" duration-ms="9043" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -392,36 +175,78 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, get {url=https://www.amazon.com/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
+              <![CDATA[The step 'I verify product is correct or not' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I verify product is correct or not")
+public void i_verify_product_is_correct_or_not() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, get {url=https://www.amazon.com/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22172, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:309)
-at stepDefinitions.AmazonSteps.iOpenTheWebsite(AmazonSteps.java:38)
-at ✽.I open the "amazonhome" website(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:7)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I verify product is correct or not' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I verify product is correct or not")
+public void i_verify_product_is_correct_or_not() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:48 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:48 TRT" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="setupAllure" finished-at="2025-03-13T13:07:15 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllure -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:24 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:24 TRT" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -437,7 +262,7 @@ at ✽.I open the "amazonhome" website(file:///C:/Users/51ram/IdeaProjects/Cucum
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:48 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:49 TRT" duration-ms="231" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:24 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:25 TRT" duration-ms="317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -453,7 +278,7 @@ at ✽.I open the "amazonhome" website(file:///C:/Users/51ram/IdeaProjects/Cucum
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:49 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T01:03:49 TRT" duration-ms="235" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:25 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:25 TRT" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,11 +294,164 @@ at ✽.I open the "amazonhome" website(file:///C:/Users/51ram/IdeaProjects/Cucum
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:49 TRT" name="tearDown" finished-at="2025-03-13T01:03:49 TRT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:25 TRT" name="tearDown" finished-at="2025-03-13T13:07:28 TRT" duration-ms="3129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@24569dba]" started-at="2025-03-13T01:03:49 TRT" name="tearDownClass" finished-at="2025-03-13T01:03:49 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:28 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:28 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.RegressionTestRunner -->
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="setUpClass" finished-at="2025-03-13T13:07:28 TRT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e66b498]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="setupAllure" finished-at="2025-03-13T13:07:28 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllure -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="8626" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Amazon Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon Web Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I verify product is correct or not' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I verify product is correct or not")
+public void i_verify_product_is_correct_or_not() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I verify product is correct or not' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I verify product is correct or not")
+public void i_verify_product_is_correct_or_not() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a user successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests on Reqres"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a user successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests on Reqres"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a user successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests on Reqres"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="tearDown" finished-at="2025-03-13T13:07:40 TRT" duration-ms="3003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:40 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:40 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

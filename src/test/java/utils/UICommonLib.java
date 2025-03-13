@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
@@ -228,6 +229,39 @@ public class UICommonLib {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0," + pixels + ");");
     }
+
+
+    //+++++
+
+    public static List<WebElement> getElements(WebDriver driver, By locator ) {
+        try {
+            // JSON dosyasından locator'ı al
+          //  String locatorValue = JsonReader.getLocator(pageName, locatorKey);
+
+//            if (locatorValue == null) {
+//                log.error("❌ Hata: JSON içinde '{}' için locator bulunamadı!", locatorKey);
+//                return Collections.emptyList(); // Eğer locator bulunamazsa boş liste döndür
+//            }
+
+            // XPath veya CSS olup olmadığına karar ver
+            //By locator = locatorValue.startsWith("//") ? By.xpath(locatorValue) : By.cssSelector(locatorValue);
+
+            List<WebElement> elements = driver.findElements(locator);
+
+            if (elements.isEmpty()) {
+                log.warn("⚠️ Uyarı: '{}' için hiçbir element bulunamadı!", locator);
+            } else {
+                log.info("✅ '{}' için {} adet element bulundu.", locator, elements.size());
+            }
+
+            return elements;
+        } catch (Exception e) {
+            log.error("❌ Hata: '{}' elemanlarını alırken hata oluştu! Hata: {}", locator, e.getMessage());
+            return Collections.emptyList();
+        }
+    }
+
+
 
 
 }

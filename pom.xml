@@ -132,6 +132,29 @@
             </plugin>
 
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includes>
+                        <include>**/*.feature</include>
+                    </includes>
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.basedir}/target/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+
+
+
             <!-- ✅ Allure Raporlama -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
