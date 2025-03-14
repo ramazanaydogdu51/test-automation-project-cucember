@@ -367,7 +367,7 @@ public class CommonLibWeb {
         // JSON'dan lokatörü al
         String locator = JsonReader.getLocator(pageName, elementName);
         if (locator != null) {
-            By byElement = By.xpath(locator); // XPath kullanılıyor
+            By byElement = By.xpath(locator); // XPath kullanılıyor //
             clickElement(driver, byElement, true, "Clicking " + pageName + " - " + elementName);
             return driver.findElement(By.xpath(locator)); // Son tıklanan elementi döndür
         } else {

@@ -15,44 +15,40 @@ public class DriverManager {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            String browser = JsonReader.getUrl("browser"); // config.json'dan tarayıcı al
-            log.info("Initializing WebDriver for: " + browser);
+            String browser = JsonReader.getUrl("browser");
+            boolean isHeadless = Boolean.parseBoolean(JsonReader.getUrl("headless"));
+            boolean useProfile = Boolean.parseBoolean(JsonReader.getUrl("useProfile"));
+
+            log.info("Initializing WebDriver for: " + browser + ", Headless: " + isHeadless + ", Use Profile: " + useProfile);
 
             switch (browser.toLowerCase()) {
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-
-                    String profilePath = "C:\\Users\\51ram\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles";
-                    FirefoxOptions options = new FirefoxOptions();
-                    options.addArguments("-profile", profilePath);
-
-
-                    driver = new FirefoxDriver(options);
-                    log.info("FirefoxDriver initialized.");
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    if (isHeadless) {
+                        firefoxOptions.addArguments("--headless");
+                    }
+                    if (useProfile) {
+                        String profilePath = "C:\\Users\\51ram\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles"; // Profil yolu burada
+                        firefoxOptions.addArguments("-profile", profilePath);
+                    }
+                    driver = new FirefoxDriver(firefoxOptions);
                     break;
                 case "chrome":
                 default:
                     WebDriverManager.chromedriver().setup();
-//                    ChromeOptions options = new ChromeOptions();
-//                    options.addArguments("--no-sandbox");
-//                    options.addArguments("--disable-dev-shm-usage");
-//                    options.addArguments("--disable-blink-features=AutomationControlled");
-////                    options.addArguments("--disable-popup-blocking");
-//                    options.addArguments("--disable-extensions");
-
-
-                    //         options.addArguments("--headless");
-//                    options.addArguments("user-data-dir=C:/Users/51ram/AppData/Local/Google/Chrome/User Data");
-//                    options.addArguments("profile-directory=Profile 1"); // Varsayılan profil dizini
-//                    options.addArguments("--remote-debugging-port=0");
-                    driver = new ChromeDriver();
-                    log.info("ChromeDriver initialized with user data.");
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    if (isHeadless) {
+                        chromeOptions.addArguments("--headless");
+                    }
+                    driver = new ChromeDriver(chromeOptions);
                     break;
             }
             driver.manage().window().maximize();
         }
         return driver;
     }
+
 
     public static synchronized void quitDriver() {
         if (driver != null) {

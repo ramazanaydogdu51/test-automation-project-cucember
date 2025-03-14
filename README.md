@@ -5,6 +5,28 @@ It is designed to **automate web application testing** using the **Page Object M
 
 
 ---
+# 🎬 Test Case Execution
+
+This section explains how to execute test cases. Below, you can find demonstration videos for both **Webdriver-based UI tests** and **API tests**.
+
+## 🖥️ Webdriver Test Execution
+Watch the video below to see how Web UI tests are executed:  
+[![Webdriver Test Execution](https://img.youtube.com/vi/UQ-ZEWvgshs/0.jpg)](https://youtu.be/UQ-ZEWvgshs)
+
+📌 **Description:** Demonstrates how to execute web-based test scenarios using Selenium Webdriver.
+
+## 🌐 API Test Execution
+Watch the video below to see how API tests are executed:  
+[![API Test Execution](https://img.youtube.com/vi/IycbsaKa3r4/0.jpg)](https://youtu.be/IycbsaKa3r4)
+
+📌 **Description:** Shows how to run API tests and integrate them with tools like Postman or RestAssured.
+
+### 🎬 Allure Report Demonstration
+
+
+
+
+### 🎬 Resources and Logs
 
 
 ## 📌 Features
@@ -180,22 +202,29 @@ logs/test-log.log
 
 
 
-## 📹 Test Automation Videos
+# 🎬 Test Case Execution
 
-### 🎬 Test Case Execution
-https://youtu.be/kXEGQ_RTeIA
+This section explains how to execute test cases. Below, you can find demonstration videos for both **Webdriver-based UI tests** and **API tests**.
 
-[![Test Execution](https://img.youtube.com/vi/kXEGQ_RTeIA/0.jpg)](https://youtu.be/kXEGQ_RTeIA)
+## 🖥️ Webdriver Test Execution
+Watch the video below to see how Web UI tests are executed:  
+[![Webdriver Test Execution](https://img.youtube.com/vi/UQ-ZEWvgshs/0.jpg)](https://youtu.be/UQ-ZEWvgshs)
+
+📌 **Description:** Demonstrates how to execute web-based test scenarios using Selenium Webdriver.
+
+## 🌐 API Test Execution
+Watch the video below to see how API tests are executed:  
+[![API Test Execution](https://img.youtube.com/vi/IycbsaKa3r4/0.jpg)](https://youtu.be/IycbsaKa3r4)
+
+📌 **Description:** Shows how to run API tests and integrate them with tools like Postman or RestAssured.
 
 ### 🎬 Allure Report Demonstration
-https://youtu.be/99mPiVD2a_o
 
-[![Allure Report](https://img.youtube.com/vi/99mPiVD2a_o/0.jpg)](https://youtu.be/99mPiVD2a_o)
+
+
 
 ### 🎬 Resources and Logs
-https://youtu.be/Fhk5PlEZEBI
 
-[![Resources and Logs](https://img.youtube.com/vi/Fhk5PlEZEBI/0.jpg)](https://youtu.be/Fhk5PlEZEBI)
 
 
 

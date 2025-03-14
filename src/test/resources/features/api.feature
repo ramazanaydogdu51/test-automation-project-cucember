@@ -9,7 +9,7 @@ Feature: API Tests on Reqres
     When I send a "POST" request to "https://reqres.in/api/users"
     Then the response status code should be 201
     And I verify that the response has the "name" field equal to "Aydogdu"
-    And I verify that the response has the "job" field equal to "Developer in Test"
+    And I verify that the response has the "job" field equal to "Developer in Tes"
     And I verify that the response contains the field "id"
     And I verify that the response contains the field "createdAt"
 
