@@ -16,8 +16,8 @@ import java.util.Set;
 
 
 
-public class UICommonLib {
-    private static final Logger log = LogManager.getLogger(UICommonLib.class);
+public class CommonLibWeb {
+    private static final Logger log = LogManager.getLogger(CommonLibWeb.class);
 
 
     // Elementi sayfanın en üstüne hizalar (start)
@@ -68,11 +68,11 @@ public class UICommonLib {
             // 📸 Eğer test kanıtı isteniyorsa, SS al
             if (takeScreenshot) {
                 log.info("📸 Element tıklama sonrası ekran görüntüsü alınıyor...");
-                UICommonLib.captureScreenshot(driver, "Click Success => " + descriptionOfPic);
+                CommonLibWeb.captureScreenshot(driver, "Click Success => " + descriptionOfPic);
             }
         } catch (TimeoutException | NoSuchElementException e) {
             log.error("❌ Element tıklanamadı: {} - Hata: {}", element, e.getMessage());
-            UICommonLib.captureScreenshot(driver, "ClickElement_Error");
+            CommonLibWeb.captureScreenshot(driver, "ClickElement_Error");
             throw e;
         }
     }
@@ -284,7 +284,7 @@ public class UICommonLib {
             log.info("🔍 Waiting for the element to become visible | Locator: {} | Timeout: {} seconds", locator.toString(), timeoutInSeconds);
 
             // Wait for the element to be visible
-            UICommonLib.waitForElementToBeVisible(driver, locator, timeoutInSeconds);
+            CommonLibWeb.waitForElementToBeVisible(driver, locator, timeoutInSeconds);
 
             log.info("✅ Element is now visible | Locator: {}", locator.toString());
 
@@ -337,6 +337,7 @@ public class UICommonLib {
     public static void openWebsite(WebDriver driver, String url) {
 
         log.info("🌍 Navigating to the website: {}", url);
+        Allure.step("🌍 Navigating to the website: {"+url+"}");
 
         String fullUrl = JsonReader.getUrl(url);
         if (fullUrl != null) {
@@ -352,17 +353,23 @@ public class UICommonLib {
 
     public static void verifyWebsiteUrl(WebDriver driver, String url) {
         log.info("🔍 Verifying if the current website matches the expected URL...");
+        Allure.step("🔍 Verifying if the current website matches the expected URL...");
 
         String actualUrl = driver.getCurrentUrl();
         String expectedUrl = JsonReader.getUrl(url);
 
         log.info("➡ Expected URL: {}", expectedUrl);
+        Allure.step("➡ Expected URL: {"+expectedUrl+"}");
         log.info("➡ Actual URL: {}", actualUrl);
+        Allure.step("➡ Actual URL: {"+actualUrl+"}");
 
         if (actualUrl.equals(expectedUrl)) {
             log.info("✅ The website URL is correct!");
+            Allure.step("✅ The website URL is correct!");
+            captureScreenshot(driver,actualUrl);
         } else {
             log.error("❌ URL Mismatch! Expected: {}, but found: {}", expectedUrl, actualUrl);
+            Allure.step("❌ URL Mismatch! Expected: {"+expectedUrl+"}, but found: {"+actualUrl+"}" );
         }
 
         Assert.assertEquals(actualUrl, expectedUrl, "The website URL does not match!");
@@ -370,6 +377,7 @@ public class UICommonLib {
 
     public static WebElement clickElementByJson(WebDriver driver, String pageName, String elementName) {
         log.info("Trying to click on: {} - {}", pageName, elementName);
+        Allure.step("Trying to click on: {"+pageName+"} - {"+elementName+"}");
 
         // JSON'dan lokatörü al
         String locator = JsonReader.getLocator(pageName, elementName);
@@ -388,11 +396,15 @@ public class UICommonLib {
 
             if (lastClickedElement != null) {
                 log.info("✍ Writing text '{}' in last clicked element", text);
+                Allure.step("✍ Writing text '{"+text+"}' in last clicked element");
                 lastClickedElement.clear();
                 lastClickedElement.sendKeys(text);
                 log.info("✅ Successfully wrote text: '{}'", text);
+                Allure.step("✅ Successfully wrote text: '{"+text+"}'");
+
             } else {
                 log.error("❌ No element was clicked before writing.");
+                Allure.step("❌ No element was clicked before writing.");
                 throw new RuntimeException("No element was clicked before writing.");
             }
         }
