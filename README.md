@@ -1,18 +1,21 @@
 #  Test Automation Project
 
-This project is a **fully automated testing framework** built with **Selenium WebDriver, TestNG, and Allure Reporting**.  
-It is designed to **automate web application testing** and provide **detailed test reports** with logging and screenshots.
+This project is a **fully automated test framework** built with **Cucumber, Selenium WebDriver, RestAssured, JUnit, and Allure Reporting**.  
+It is designed to **automate web application testing** using the **Page Object Model (POM)** and also supports **API testing**.
+
 
 ---
 
 ## 📌 Features
 
-- 🚀 **Selenium WebDriver** - Cross-browser web automation
-- ✅ **TestNG** - Structured test execution with annotations
-- 📊 **Allure Reports** - Detailed test results visualization
+- 🚀 **Cucumber & Gherkin Syntax** - BDD (Behavior-Driven Development)
+- ✅ **Selenium WebDriver** - Cross-browser UI automation
+- 🔄 **RestAssured** - API Testing with request validation
+- ⚙️ **JUnit** - Structured test execution
+- 📊 **Allure Reports** - Detailed test reporting and analysis
 - 📝 **Log4j2** - Advanced logging for debugging
 - 🌍 **JSON-based test configuration** - Dynamic data management
-- 🔥 **Parallel execution support** - Faster test runs
+- 🔥 **Parallel Execution Support** - Faster test execution
 
 
 ---
@@ -60,8 +63,8 @@ It is designed to **automate web application testing** and provide **detailed te
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/ramazanaydogdu51/test-automaiton-project.git
-cd test-automaiton-project
+git clone https://github.com/ramazanaydogdu51/test-automation-project-cucember.git
+cd test-automation-project-cucember
 ```
 
 ### 2️⃣ Install Dependencies
@@ -90,6 +93,7 @@ mvn allure:serve
 - **config.json** → Contains URLs for the test application.
 - **locators.json** → Stores XPath and CSS selectors for page elements.
 - **log4j2.xml** → Manages logging levels and output locations.
+- **userData.json** → Test data (e.g., usernames, passwords).
 
 ---
 
