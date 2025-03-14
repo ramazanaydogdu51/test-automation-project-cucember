@@ -1,11 +1,11 @@
 stepDefinitions\ApiSteps.class
-utils\BaseTest.class
 pages\HomePage.class
 stepDefinitions\AmazonSteps.class
 utils\JsonReader.class
 runners\TestRunner.class
 utils\ApiCommonLib.class
 runners\UITestRunner.class
+utils\CommonLibWeb.class
 utils\ApiService.class
 runners\RegressionTestRunner.class
 runners\BaseTestRunner.class

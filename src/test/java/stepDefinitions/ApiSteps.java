@@ -18,11 +18,11 @@ import utils.JsonReader;
 import static org.testng.Assert.assertNotNull;
 
 public class ApiSteps {
-    private static final String BASE_URL = "https://reqres.in/api/users";
-    private static Response response;
-    private static String userId;
+    private  final String BASE_URL = "https://reqres.in/api/users";
+    private  Response response;
+    private  String userId;
 
-    private static final Logger log = LogManager.getLogger(ApiSteps.class);
+    private  final Logger log = LogManager.getLogger(ApiSteps.class);
     private RequestSpecification request;
     private JsonObject requestBody;
 

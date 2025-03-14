@@ -1,5 +1,5 @@
 
- @RegressionTest @UITest
+ @RegressionTest  @UITest
 Feature: Amazon Web Testing
 
 

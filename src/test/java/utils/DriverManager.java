@@ -11,51 +11,49 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverManager {
     private static final Logger log = LogManager.getLogger(DriverManager.class);
-    private static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static WebDriver getDriver() {
-        if (driver == null) {
-            String browser = JsonReader.getUrl("browser");
-            boolean isHeadless = Boolean.parseBoolean(JsonReader.getUrl("headless"));
-            boolean useProfile = Boolean.parseBoolean(JsonReader.getUrl("useProfile"));
+        if (driver.get() == null) {
+            String browser = System.getProperty("browser", "chrome");
+            boolean isHeadless = Boolean.parseBoolean(System.getProperty("headless", "false"));
+            boolean useProfile = Boolean.parseBoolean(System.getProperty("useProfile", "false"));
 
-            log.info("Initializing WebDriver for: " + browser + ", Headless: " + isHeadless + ", Use Profile: " + useProfile);
+            log.info("Initializing WebDriver for: " + browser + ", Headless: " + isHeadless + ", UseProfile: " + useProfile);
 
             switch (browser.toLowerCase()) {
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
-                    if (isHeadless) {
-                        firefoxOptions.addArguments("--headless");
-                    }
+                    if (isHeadless) firefoxOptions.addArguments("--headless");
                     if (useProfile) {
-                        String profilePath = "C:\\Users\\51ram\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles"; // Profil yolu burada
-                        firefoxOptions.addArguments("-profile", profilePath);
+                        firefoxOptions.addArguments("-profile", "C:\\Users\\51ram\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles");
                     }
-                    driver = new FirefoxDriver(firefoxOptions);
+                    driver.set(new FirefoxDriver(firefoxOptions));
                     break;
+
                 case "chrome":
                 default:
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    if (isHeadless) {
-                        chromeOptions.addArguments("--headless");
+                    if (isHeadless) chromeOptions.addArguments("--headless");
+                    if (useProfile) {
+                        chromeOptions.addArguments("user-data-dir=C:\\Users\\51ram\\AppData\\Local\\Google\\Chrome\\User Data");
+                        chromeOptions.addArguments("profile-directory=Profile 1");
                     }
-                    driver = new ChromeDriver(chromeOptions);
+                    driver.set(new ChromeDriver(chromeOptions));
                     break;
             }
-            driver.manage().window().maximize();
+            driver.get().manage().window().maximize();
         }
-        return driver;
+        return driver.get();
     }
 
-
     public static synchronized void quitDriver() {
-        if (driver != null) {
-            CommonLibWeb.captureScreenshot(driver,"Captured Before Closing");
+        if (driver.get() != null) {
             log.info("Closing WebDriver...");
-           driver.quit();
-            driver = null;
+            driver.get().quit();
+            driver.remove();
         }
     }
 }
