@@ -59,19 +59,19 @@ public class CommonLibWeb {
     public static void clickElement(WebDriver driver, By element, boolean takeScreenshot, String descriptionOfPic) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         try {
-            log.info("⏳ Tıklanacak element bekleniyor: {}", element);
+            log.info("⏳ Expected element to be clicked: {}", element);
 
             WebElement webElement = wait.until(ExpectedConditions.elementToBeClickable(element));
             webElement.click(); // ✅ Elemente normal click
-            log.info("✅ Element başarıyla tıklandı: {}", element);
+            log.info("✅ Element clicked successfully: {}", element);
 
             // 📸 Eğer test kanıtı isteniyorsa, SS al
             if (takeScreenshot) {
-                log.info("📸 Element tıklama sonrası ekran görüntüsü alınıyor...");
+                log.info("📸 Taking screenshots after element click...");
                 CommonLibWeb.captureScreenshot(driver, "Click Success => " + descriptionOfPic);
             }
         } catch (TimeoutException | NoSuchElementException e) {
-            log.error("❌ Element tıklanamadı: {} - Hata: {}", element, e.getMessage());
+            log.error("❌ Element not clickable: {} - Hata: {}", element, e.getMessage());
             CommonLibWeb.captureScreenshot(driver, "ClickElement_Error");
             throw e;
         }
@@ -86,11 +86,11 @@ public class CommonLibWeb {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             WebElement optionElement = wait.until(ExpectedConditions.visibilityOfElementLocated(option));
 
-            log.info("🔽 Seçilecek dropdown değeri bulundu: " + valueToSelect);
+            log.info("🔽 Found dropdown value to select: " + valueToSelect);
             optionElement.click();
-            log.info("✅ Dropdown değeri başarıyla seçildi: " + valueToSelect);
+            log.info("✅ Dropdown value successfully selected: " + valueToSelect);
         } catch (Exception e) {
-            log.error("❌ Dropdown değeri seçilemedi: " + valueToSelect, e);
+            log.error("❌ Dropdown value could not be selected: " + valueToSelect, e);
             captureScreenshot(driver, "SelectDropdownValue_Error");
         }
     }
@@ -98,31 +98,16 @@ public class CommonLibWeb {
     public static void waitForTextToAppear(WebDriver driver, By element, String expectedText) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         try {
-            log.info("⏳ Bekleniyor: '{}' metni '{}' elementinde görünsün.", expectedText, element);
+            log.info("⏳ Waiting for: '{}'  text to appear in '{}' element.", expectedText, element);
             wait.until(ExpectedConditions.textToBePresentInElementLocated(element, expectedText));
-            log.info("✅ Metin bulundu: '{}' -> {}", expectedText, element);
+            log.info("✅ Text found: '{}' -> {}", expectedText, element);
         } catch (TimeoutException e) {
-            log.error("❌ TimeoutException: Beklenen metin '{}' belirtilen elementte görünmedi: {}", expectedText, element);
+            log.error("❌ TimeoutException: Expected text '{}' did not appear in the specified element: {}", expectedText, element);
             captureScreenshot(driver, "WaitForText_Error");
-            throw new TimeoutException("HATA: '" + expectedText + "' metni, element " + element + " içinde yüklenmedi.", e);
+            throw new TimeoutException("Error: '" + expectedText + "'  text was not loaded in element  " + element + " ", e);
         }
     }
 
-    public static void switchToNewTab2(WebDriver driver) {
-        String mainWindow = driver.getWindowHandle();
-        Set<String> windowHandles = driver.getWindowHandles();
-        log.info("🔄 Açık sekmeler: {}", windowHandles);
-        for (String window : windowHandles) {
-            if (!window.equals(mainWindow)) {
-                driver.switchTo().window(window);
-                log.info("✅ Yeni sekmeye geçildi: {}", driver.getTitle());
-                captureScreenshot(driver, driver.getTitle());
-                return;
-            }
-        }
-        log.error("❌ Yeni sekme bulunamadı!");
-        captureScreenshot(driver, "SwitchToNewTab_Error");
-    }
 
     public static void switchToNewTab(WebDriver driver, boolean takeScreenshot) {
         String mainWindow = driver.getWindowHandle();
@@ -240,14 +225,14 @@ public class CommonLibWeb {
             List<WebElement> elements = driver.findElements(locator);
 
             if (elements.isEmpty()) {
-                log.warn("⚠️ Uyarı: '{}' için hiçbir element bulunamadı!", locator);
+                log.warn("⚠️ Warning: '{}' no elements were found for it!", locator);
             } else {
-                log.info("✅ '{}' için {} adet element bulundu.", locator, elements.size());
+                log.info("✅ '{}' for {} elements were found.", locator, elements.size());
             }
 
             return elements;
         } catch (Exception e) {
-            log.error("❌ Hata: '{}' elemanlarını alırken hata oluştu! Hata: {}", locator, e.getMessage());
+            log.error("❌ Error: '{}' error retrieving elements! Error: {}", locator, e.getMessage());
             return Collections.emptyList();
         }
     }
@@ -257,7 +242,7 @@ public class CommonLibWeb {
               String locator = JsonReader.getLocator(pageName, elementName);
 
             if (locator == null) {
-                log.error("❌ Hata: JSON içinde '{}' için locator bulunamadı!", elementName);
+                log.error("❌ Error: In JSON '{}' locator not found!", elementName);
                 return Collections.emptyList(); // Eğer locator bulunamazsa boş liste döndür
             }
 
@@ -268,14 +253,14 @@ public class CommonLibWeb {
             List<WebElement> elements = driver.findElements(byLocator);
 
             if (elements.isEmpty()) {
-                log.warn("⚠️ Uyarı: '{}' için hiçbir element bulunamadı!", locator);
+                log.warn("⚠️ Warning: '{}' no elements were found for it!", locator);
             } else {
-                log.info("✅ '{}' için {} adet element bulundu.", locator, elements.size());
+                log.info("✅ '{}' for {} elements were found.", locator, elements.size());
             }
 
             return elements;
         } catch (Exception e) {
-            log.error("❌ Hata: '{}' elemanlarını alırken hata oluştu! Hata: {}", elementName, e.getMessage());
+            log.error("❌ Error: '{}' Error receiving elements! Error: {}", elementName, e.getMessage());
             return Collections.emptyList();
         }
     }

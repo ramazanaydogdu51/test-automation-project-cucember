@@ -56,8 +56,9 @@ public class DriverManager {
 
     public static synchronized void quitDriver() {
         if (driver != null) {
+            CommonLibWeb.captureScreenshot(driver,"Captured Before Closing");
             log.info("Closing WebDriver...");
-//            driver.quit();
+           driver.quit();
             driver = null;
         }
     }

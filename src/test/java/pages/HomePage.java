@@ -46,8 +46,8 @@ public class HomePage {
 
         for (WebElement product : products) {
             if (!isProductDiscounted(product) && hasAddToCartButton( product)) {
-                log.info("✅ Seçilen indirimde olmayan ürün: " + getProductTitle(product));
-                Allure.step("✅ Seçilen indirimde olmayan ürün: " + getProductTitle(product));
+                log.info("✅ Selected product not on sale: " + getProductTitle(product));
+                Allure.step("✅ Selected product not on sale: " + getProductTitle(product));
                 return product;
             }
         }
@@ -73,7 +73,7 @@ public class HomePage {
         try {
             return product.findElement(By.name("submit.addToCart"));
         } catch (NoSuchElementException e) {
-            log.warn("⚠️ Sepete ekleme butonu bulunamadı, bu ürün atlanıyor.");
+                log.warn("⚠️ No add to cart button found, this product is skipped.");
             return null;
         }
     }
@@ -82,22 +82,22 @@ public class HomePage {
     public void verifyProductInCart(WebElement lastClickedElement) {
         String expectedProductName = getExpectedProductName(lastClickedElement);
         String actualProductName = CommonLibWeb.getElementAttribute(driver,productOnBasket,"alt",10);
-        log.info("🛒 Beklenen ürün: " + expectedProductName);
-        Allure.step("🛒 Beklenen ürün: " + expectedProductName);
-        log.info("🛒 Sepetteki ürün: " + actualProductName);
-        Allure.step("🛒 Sepetteki ürün: " + actualProductName);
-
+        log.info("🛒 Expected product: " + expectedProductName);
+        Allure.step("🛒 Expected product: " + expectedProductName);
+        log.info("🛒 Product in cart: " + actualProductName);
+        Allure.step("🛒 Product in cart: " + actualProductName);
+        CommonLibWeb.captureScreenshot(driver,"Product added to cart");
         // Beklenen ve gerçek ürün ismini karşılaştır
         Assert.assertTrue(expectedProductName.equalsIgnoreCase(actualProductName),
-                String.format("❌ Ürün adı eşleşmiyor! Beklenen: %s - Sepette: %s", expectedProductName, actualProductName));
+                String.format("❌ Product name does not match! Expected: %s - In cart: %s", expectedProductName, actualProductName));
 
-        log.info("✅ Ürün sepete başarıyla eklendi: " + expectedProductName);
-        Allure.step("✅ Ürün sepete başarıyla eklendi: " + expectedProductName);
+        log.info("✅ Product successfully added to cart: " + expectedProductName);
+        Allure.step("✅ Product successfully added to cart: " + expectedProductName);
     }
 
     private String getExpectedProductName(WebElement lastClickedElement) {
         if (lastClickedElement == null) {
-            throw new RuntimeException("❌ Doğrulamak için önce bir ürün seçmelisiniz!");
+            throw new RuntimeException("❌ To validate, you must first select a product!");
         }
         return getProductTitle(lastClickedElement).trim();
     }

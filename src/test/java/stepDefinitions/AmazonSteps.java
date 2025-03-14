@@ -35,8 +35,8 @@ public class AmazonSteps {
     @Then("I list the {string} on the {string} page")
     public void iList(String pageName, String elementName) {
         listedElements = CommonLibWeb.getElementsV2(driver, pageName, elementName);
-        log.info("✅ {} adet element bulundu.", listedElements.size());
-        Allure.step("✅ {"+listedElements.size()+"} adet element bulundu." );
+        log.info("✅ {} elements were found.", listedElements.size());
+        Allure.step("✅ {"+listedElements.size()+"} elements were found." );
     }
 
     @Then("I verify {string} website is correct")
@@ -60,8 +60,9 @@ public class AmazonSteps {
     public void iAddSelectedProductToCart() {
 
             homePage.addProductToCart(lastClickedElement);
-            log.info("🛒 Sepete eklenen ürün: " + homePage.getProductTitle(lastClickedElement));
-        Allure.step("🛒 Sepete eklenen ürün: " + homePage.getProductTitle(lastClickedElement));
+            log.info("🛒 Product added to cart: " + homePage.getProductTitle(lastClickedElement));
+        Allure.step("🛒 Product added to cart: " + homePage.getProductTitle(lastClickedElement));
+
 
     }
 

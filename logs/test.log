@@ -14835,3 +14835,322 @@ Session ID: 2246b3a8-a307-4fe6-b414-cd9946bd0562
 2025-03-14 09:07:05 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //img[@alt='Delete']
 2025-03-14 09:07:05 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
 2025-03-14 09:07:06 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:06:27 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:06:28 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:06:28 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:06:31 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:06:31 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:06:31 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:06:32 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:06:32 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:06:32 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:06:32 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:06:32 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:06:33 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:06:36 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:06:36 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:06:36 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' için 22 adet element bulundu.
+2025-03-14 17:06:36 [main] INFO  AmazonSteps - ✅ 22 adet element bulundu.
+2025-03-14 17:06:37 [main] INFO  HomePage - ✅ Seçilen indirimde olmayan ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:37 [main] INFO  AmazonSteps - 🛒 Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:37 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:06:37 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:38 [main] INFO  HomePage - 🛒 Beklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:38 [main] INFO  HomePage - 🛒 Sepetteki ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:38 [main] INFO  HomePage - ✅ Ürün sepete başarıyla eklendi: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //img[@alt='Delete']
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //img[@alt='Delete']
+2025-03-14 17:06:38 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:06:39 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:07:42 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:07:43 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:07:43 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:07:45 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:07:45 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:07:45 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:07:46 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:07:46 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:07:46 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:07:46 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:07:46 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:07:47 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:07:49 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:07:49 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:07:49 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' için 22 adet element bulundu.
+2025-03-14 17:07:49 [main] INFO  AmazonSteps - ✅ 22 adet element bulundu.
+2025-03-14 17:07:50 [main] INFO  HomePage - ✅ Seçilen indirimde olmayan ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:50 [main] INFO  AmazonSteps - 🛒 Sepete eklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:50 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:07:50 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:51 [main] INFO  HomePage - 🛒 Beklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:51 [main] INFO  HomePage - 🛒 Sepetteki ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:51 [main] INFO  HomePage - ✅ Ürün sepete başarıyla eklendi: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - ⏳ Tıklanacak element bekleniyor: By.xpath: //img[@alt='Delete']
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - ✅ Element başarıyla tıklandı: By.xpath: //img[@alt='Delete']
+2025-03-14 17:07:51 [main] INFO  CommonLibWeb - 📸 Element tıklama sonrası ekran görüntüsü alınıyor...
+2025-03-14 17:07:52 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:19:08 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:19:09 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:19:09 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:19:11 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:19:11 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:19:11 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:19:13 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:19:14 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:19:14 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:19:16 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:19:16 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:19:17 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' for 22 elements were found.
+2025-03-14 17:19:17 [main] INFO  AmazonSteps - ✅ 22 elements were found.
+2025-03-14 17:19:17 [main] INFO  HomePage - ✅ Seçilen indirimde olmayan ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:17 [main] INFO  AmazonSteps - 🛒 Product added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:17 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:19:17 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:18 [main] INFO  HomePage - 🛒 Beklenen ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:18 [main] INFO  HomePage - 🛒 Sepetteki ürün: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:18 [main] INFO  HomePage - ✅ Ürün sepete başarıyla eklendi: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //img[@alt='Delete']
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //img[@alt='Delete']
+2025-03-14 17:19:18 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:19:18 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:21:23 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:21:24 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:21:24 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:21:26 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:21:26 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:21:26 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:21:28 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:21:29 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:21:29 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:21:29 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:21:29 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:21:31 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:21:31 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:21:31 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' for 22 elements were found.
+2025-03-14 17:21:31 [main] INFO  AmazonSteps - ✅ 22 elements were found.
+2025-03-14 17:21:31 [main] INFO  HomePage - ✅ Selected product not on sale: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:32 [main] INFO  AmazonSteps - 🛒 Product added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:32 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:21:32 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:33 [main] INFO  HomePage - 🛒 Expected product: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:33 [main] INFO  HomePage - 🛒 Product in cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:33 [main] INFO  HomePage - ✅ Product successfully added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //img[@alt='Delete']
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //img[@alt='Delete']
+2025-03-14 17:21:33 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:21:33 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:23:57 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:23:58 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:23:58 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:24:00 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:24:00 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:24:00 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:24:02 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:24:03 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:24:03 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:24:04 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:24:04 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:24:04 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' for 22 elements were found.
+2025-03-14 17:24:04 [main] INFO  AmazonSteps - ✅ 22 elements were found.
+2025-03-14 17:24:05 [main] INFO  HomePage - ✅ Selected product not on sale: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:05 [main] INFO  AmazonSteps - 🛒 Product added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:05 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:24:05 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:06 [main] INFO  HomePage - 🛒 Expected product: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:06 [main] INFO  HomePage - 🛒 Product in cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:06 [main] INFO  HomePage - ✅ Product successfully added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //img[@alt='Delete']
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //img[@alt='Delete']
+2025-03-14 17:24:06 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:24:06 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:24:58 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:24:58 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:24:58 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:25:00 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:25:00 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:25:00 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:25:02 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:25:06 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:25:06 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:25:06 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' for 22 elements were found.
+2025-03-14 17:25:06 [main] INFO  AmazonSteps - ✅ 22 elements were found.
+2025-03-14 17:25:06 [main] INFO  HomePage - ✅ Selected product not on sale: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:06 [main] INFO  AmazonSteps - 🛒 Product added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:06 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:25:06 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:25:07 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:25:07 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:25:07 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:07 [main] INFO  HomePage - 🛒 Expected product: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:07 [main] INFO  HomePage - 🛒 Product in cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:08 [main] INFO  HomePage - ✅ Product successfully added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:25:08 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:25:08 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //img[@alt='Delete']
+2025-03-14 17:25:08 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //img[@alt='Delete']
+2025-03-14 17:25:08 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:25:08 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:26:08 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:26:08 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:26:08 [main] INFO  DriverManager - Initializing WebDriver for: firefox
+2025-03-14 17:26:10 [main] INFO  DriverManager - FirefoxDriver initialized.
+2025-03-14 17:26:10 [main] WARN  JsonReader - ⚠️ Config value not found: amazonUrl
+2025-03-14 17:26:10 [main] INFO  CommonLibWeb - 🌍 Navigating to the website: amazonhome
+2025-03-14 17:26:11 [main] INFO  CommonLibWeb - ✅ Successfully opened the website: https://www.amazon.com/
+2025-03-14 17:26:11 [main] INFO  CommonLibWeb - 🔍 Verifying if the current website matches the expected URL...
+2025-03-14 17:26:11 [main] INFO  CommonLibWeb - ➡ Expected URL: https://www.amazon.com/
+2025-03-14 17:26:11 [main] INFO  CommonLibWeb - ➡ Actual URL: https://www.amazon.com/
+2025-03-14 17:26:11 [main] INFO  CommonLibWeb - ✅ The website URL is correct!
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchBox
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='twotabsearchtextbox']
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - ✍ Writing text 'laptop' in last clicked element
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - ✅ Successfully wrote text: 'laptop'
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - Trying to click on: HomePage - searchButton
+2025-03-14 17:26:12 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:26:14 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //input[@id='nav-search-submit-button']
+2025-03-14 17:26:14 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:26:14 [main] INFO  CommonLibWeb - ✅ '//div[@data-component-type='s-search-result']' for 22 elements were found.
+2025-03-14 17:26:14 [main] INFO  AmazonSteps - ✅ 22 elements were found.
+2025-03-14 17:26:14 [main] INFO  HomePage - ✅ Selected product not on sale: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:15 [main] INFO  AmazonSteps - 🛒 Product added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:15 [main] INFO  CommonLibWeb - 🔍 Attempting to retrieve attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt
+2025-03-14 17:26:15 [main] INFO  CommonLibWeb - 🔍 Waiting for the element to become visible | Locator: By.xpath: //img[@class='sc-product-image '] | Timeout: 10 seconds
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - ✅ Element is now visible | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - ✅ Successfully located the element | Locator: By.xpath: //img[@class='sc-product-image ']
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - ✅ Successfully retrieved attribute | Locator: By.xpath: //img[@class='sc-product-image '] | Attribute: alt | Value: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:16 [main] INFO  HomePage - 🛒 Expected product: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:16 [main] INFO  HomePage - 🛒 Product in cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:16 [main] INFO  HomePage - ✅ Product successfully added to cart: Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - Trying to click on: HomePage - deleteProduct
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - ⏳ Expected element to be clicked: By.xpath: //img[@alt='Delete']
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - ✅ Element clicked successfully: By.xpath: //img[@alt='Delete']
+2025-03-14 17:26:16 [main] INFO  CommonLibWeb - 📸 Taking screenshots after element click...
+2025-03-14 17:26:16 [main] INFO  DriverManager - Closing WebDriver...
+2025-03-14 17:27:39 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-14 17:27:39 [main] INFO  JsonReader - ✅ JSON files loaded successfully.
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Aydogdu'
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer"}
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Developer in Test'
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - Updated request body: {"name":"Aydogdu","job":"Developer in Test"}
+2025-03-14 17:27:39 [main] INFO  ApiCommonLib - Sending POST request to https://reqres.in/api/users
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Method: POST
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Time: 942 ms
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Status Code: 201
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Aydogdu",
+    "job": "Developer in Test",
+    "id": "872",
+    "createdAt": "2025-03-14T14:27:40.024Z"
+}
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Actual Status Code 201 
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Aydogdu, Actual = Aydogdu
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Developer in Test, Actual = Developer in Test
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: id
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: createdAt
+2025-03-14 17:27:41 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - 📄 Loading JSON request body from file: src/test/resources/data/userData.json
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - ✅ Request body set successfully: {"name":"Ramazan","job":"Developer"}
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Modifying field 'name' with new value 'Ramazan Aydogdu'
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Developer"}
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Modifying field 'job' with new value 'Software'
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Updated request body: {"name":"Ramazan Aydogdu","job":"Software"}
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Sending PUT request to https://reqres.in/api/users/2
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Method: PUT
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Time: 272 ms
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Status Code: 200
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Body: {
+    "name": "Ramazan Aydogdu",
+    "job": "Software",
+    "updatedAt": "2025-03-14T14:27:40.482Z"
+}
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Actual Status Code 200 
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Validating response: Expected name = Ramazan Aydogdu, Actual = Ramazan Aydogdu
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Validating response: Expected job = Software, Actual = Software
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - ✅ Verified that the response contains the field: updatedAt
+2025-03-14 17:27:41 [main] INFO  ApiSteps - Preparing request
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Sending DELETE request to https://reqres.in/api/users/2
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Endpoint: https://reqres.in/api/users/2
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Method: DELETE
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Time: 229 ms
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - HTTP Status Code: 204
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Response Body: 
+2025-03-14 17:27:41 [main] INFO  ApiCommonLib - Actual Status Code 204 
