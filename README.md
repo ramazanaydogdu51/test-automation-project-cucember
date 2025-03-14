@@ -202,28 +202,6 @@ logs/test-log.log
 
 
 
-# 🎬 Test Case Execution
-
-This section explains how to execute test cases. Below, you can find demonstration videos for both **Webdriver-based UI tests** and **API tests**.
-
-## 🖥️ Webdriver Test Execution
-Watch the video below to see how Web UI tests are executed:  
-[![Webdriver Test Execution](https://img.youtube.com/vi/UQ-ZEWvgshs/0.jpg)](https://youtu.be/UQ-ZEWvgshs)
-
-📌 **Description:** Demonstrates how to execute web-based test scenarios using Selenium Webdriver.
-
-## 🌐 API Test Execution
-Watch the video below to see how API tests are executed:  
-[![API Test Execution](https://img.youtube.com/vi/IycbsaKa3r4/0.jpg)](https://youtu.be/IycbsaKa3r4)
-
-📌 **Description:** Shows how to run API tests and integrate them with tools like Postman or RestAssured.
-
-### 🎬 Allure Report Demonstration
-
-
-
-
-### 🎬 Resources and Logs
 
 
 
