@@ -6,12 +6,13 @@ It is designed to **automate web application testing** using the **Page Object M
 
 ---
 
+
 ## 📌 Features
 
 - 🚀 **Cucumber & Gherkin Syntax** - BDD (Behavior-Driven Development)
 - ✅ **Selenium WebDriver** - Cross-browser UI automation
 - 🔄 **RestAssured** - API Testing with request validation
-- ⚙️ **JUnit** - Structured test execution
+- ⚙️ **TestNG** - Advanced test execution with annotations
 - 📊 **Allure Reports** - Detailed test reporting and analysis
 - 📝 **Log4j2** - Advanced logging for debugging
 - 🌍 **JSON-based test configuration** - Dynamic data management
@@ -19,41 +20,61 @@ It is designed to **automate web application testing** using the **Page Object M
 
 
 ---
+## 📜 Example Cucumber Scenario (amazon.feature)
+
+```gherkin
+Feature: Amazon Search Functionality
+
+  Scenario: User searches for a product on Amazon
+    Given User is on the Amazon homepage
+    When User searches for "laptop"
+    Then Search results should contain "laptop"
+
+```
+
 
 ## 📂 Project Structure
 
 ```
-📂 test-automation-project
- ┣ 📂 .allure               # Allure test result reports
- ┣ 📂 logs                  # Stores log files
- ┃ ┗ 📜 test-log.log        # Log output file
- ┣ 📂 docs                  # GitHub Pages video hosting
- ┣ 📂 src
- ┃ ┣ 📂 main
- ┃ ┃ ┣ 📂 java
- ┃ ┃ ┃ ┣ 📂 utils           # Utility classes
- ┃ ┃ ┃ ┃ ┣ 📜 DriverManager  # Manages WebDriver instances
- ┃ ┃ ┃ ┃ ┗ 📜 JsonReader     # Reads test data from JSON files
- ┃ ┣ 📂 test
- ┃ ┃ ┣ 📂 java
- ┃ ┃ ┃ ┣ 📂 pages           # Page Object Model (POM) classes
- ┃ ┃ ┃ ┃ ┣ 📜 BasePage      # Base class for page interactions
- ┃ ┃ ┃ ┃ ┣ 📜 CareersPage   # Page object for Careers page
- ┃ ┃ ┃ ┃ ┣ 📜 HomePage      # Page object for Home page
- ┃ ┃ ┃ ┃ ┗ 📜 QAJobsPage    # Page object for QA jobs section
- ┃ ┃ ┃ ┣ 📂 tests           # Test cases
- ┃ ┃ ┃ ┃ ┗ 📜 Ramazan_Aydogdu_Test  # Main test suite
- ┃ ┃ ┃ ┣ 📂 utils           # Common utilities for tests
- ┃ ┃ ┃ ┃ ┗ 📜 CommonLib     # Shared utility methods
- ┃ ┃ ┃ ┣ 📂 resources       # Configuration & Test Data
- ┃ ┃ ┃ ┃ ┣ 📜 config.json   # Stores test environment configurations
- ┃ ┃ ┃ ┃ ┣ 📜 locators.json # Stores element locators (XPath, CSS)
- ┃ ┃ ┃ ┃ ┗ 📜 log4j2.xml    # Log4j2 configuration
- ┣ 📂 target                # Compiled test results
- ┣ 📜 .gitignore            # Git ignore settings
- ┣ 📜 pom.xml               # Maven dependencies
- ┣ 📜 README.md             # Project documentation
- ┗ 📜 testng.xml            # TestNG suite configuration
+📂 CucumberAmazonTest
+├── 📂 .allure                                   # Allure test result reports
+├── 📂 .idea                                     # IntelliJ IDEA project settings
+├── 📂 allure-results                            # Allure test output files
+├── 📂 logs                                      # Stores log files
+├── 📂 src
+│   ├── 📂 test
+│   │   ├── 📂 java
+│   │   │   ├── 📂 pages                         # Page Object Model (POM) classes
+│   │   │   │   ├── ☕ HomePage.java
+│   │   │   ├── 📂 runners                       # Test runners for different test types
+│   │   │   │   ├── ☕ APITestRunner.java
+│   │   │   │   ├── ☕ BaseTestRunner.java
+│   │   │   │   ├── ☕ RegressionTestRunner.java
+│   │   │   │   ├── ☕ TestRunner.java
+│   │   │   │   ├── ☕ UITestRunner.java
+│   │   │   ├── 📂 stepDefinitions               # Step Definitions for Cucumber
+│   │   │   │   ├── ☕ AmazonSteps.java
+│   │   │   │   ├── ☕ ApiSteps.java
+│   │   │   ├── 📂 utils                         # Utility classes
+│   │   │   │   ├── ☕ ApiCommonLib.java
+│   │   │   │   ├── ☕ ApiService.java
+│   │   │   │   ├── ☕ BaseTest.java
+│   │   │   │   ├── ☕ CommonLibWeb.java
+│   │   │   │   ├── ☕ DriverManager.java
+│   │   │   │   ├── ☕ JsonReader.java
+│   │   ├── 📂 resources                       # Configuration & Test Data
+│   │   │   ├── 📂 config                      # Stores test environment configurations
+│   │   │   │   ├── 📄 config.json
+│   │   │   │   ├── 📄 locators.json
+│   │   │   ├── 📂 data                        # Test user data
+│   │   │   │   ├── 📄 userData.json
+│   │   │   ├── 📂 features                    # Cucumber feature files
+│   │   │   │   ├── 📄 amazon.feature
+│   │   │   │   ├── 📄 api.feature
+│   │   │   ├── 📄 log4j2.xml                  # Log4j2 configuration file
+├── 📂 target                                  # Compiled test results
+├── 📄 pom.xml                                 # Maven dependencies
+
 ```
 
 ---
@@ -80,6 +101,22 @@ Run all tests:
 ```bash
 mvn test
 ```
+Run specific tests:
+
+Run UI Tests:
+```bash
+mvn test -Dcucumber.filter.tags="@UITest"
+```
+Run API Tests:
+```bash
+mvn test -Dcucumber.filter.tags="@APITest"
+```
+Run Regression Tests
+```bash
+mvn test -Dcucumber.filter.tags="@RegressionTest"
+```
+
+
 ### 4️⃣ Generate and View Test Reports
 Generate and view test reports with **Allure**:
 
@@ -135,11 +172,12 @@ logs/test-log.log
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)  
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)  
 ![TestNG](https://img.shields.io/badge/TestNG-FF6F00?style=for-the-badge&logo=testng&logoColor=white)  
-![Allure](https://img.shields.io/badge/Allure-0A0A0A?style=for-the-badge&logo=allure&logoColor=white)
-
-![Log4j](https://img.shields.io/badge/Log4j-2C2C2C?style=for-the-badge&logo=apache&logoColor=white)
-
+![Allure](https://img.shields.io/badge/Allure-0A0A0A?style=for-the-badge&logo=allure&logoColor=white)  
+![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)  
+![RestAssured](https://img.shields.io/badge/RestAssured-005571?style=for-the-badge&logo=rest-assured&logoColor=white)  
+![Log4j](https://img.shields.io/badge/Log4j-2C2C2C?style=for-the-badge&logo=apache&logoColor=white)  
 ![WebDriver Manager](https://img.shields.io/badge/WebDriver_Manager-0078D7?style=for-the-badge&logo=selenium&logoColor=white)
+
 
 
 ## 📹 Test Automation Videos

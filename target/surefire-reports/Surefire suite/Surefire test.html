@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 13 13:07:12 TRT 2025</td>
+<td>Started on:</td><td>Fri Mar 14 18:28:12 TRT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>44 seconds (44113 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5798 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,187 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='runners.RegressionTestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.RegressionTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open Amazon Home Page", "Amazon Web Testing"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I verify product is correct or not&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;I verify product is correct or not&quot;)
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1571615117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1571615117'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I verify product is correct or not&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;I verify product is correct or not&quot;)
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-</pre></div></td>
-<td>9</td>
-<td>runners.RegressionTestRunner@2a265ea9</td></tr>
-<tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open Amazon Home Page", "Amazon Web Testing"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I verify product is correct or not&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;I verify product is correct or not&quot;)
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1696377390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1696377390'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;I verify product is correct or not&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then(&quot;I verify product is correct or not&quot;)
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-</pre></div></td>
-<td>8</td>
-<td>runners.TestRunner@11392934</td></tr>
-<tr>
-<td title='runners.UITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.UITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Open Amazon Home Page", "Amazon Web Testing"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id=&apos;twotabsearchtextbox&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at utils.UICommonLib.clickElement(UICommonLib.java:62)
-	at stepDefinitions.AmazonSteps.iClick(AmazonSteps.java:78)
-	at ✽.I click &quot;HomePage&quot; &quot;searchBox&quot;(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1654919801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1654919801'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id=&apos;twotabsearchtextbox&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at utils.UICommonLib.clickElement(UICommonLib.java:62)
-	at stepDefinitions.AmazonSteps.iClick(AmazonSteps.java:78)
-	at ✽.I click &quot;HomePage&quot; &quot;searchBox&quot;(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:9)
-</pre></div></td>
-<td>14</td>
-<td>runners.UITestRunner@6892b3b6</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -257,15 +76,50 @@ Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
+<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>2</td>
+<td>runners.APITestRunner@46cdf8bd</td></tr>
+<tr>
+<td title='runners.UITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.UITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
 <td></td>
 <td>0</td>
-<td>runners.TestRunner@11392934</td></tr>
+<td>runners.UITestRunner@6892b3b6</td></tr>
 <tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a user successfully", "API Tests on Reqres"</td>
 <td></td>
 <td>0</td>
 <td>runners.TestRunner@11392934</td></tr>
+<tr>
+<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.APITestRunner@46cdf8bd</td></tr>
+<tr>
+<td title='runners.RegressionTestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.RegressionTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.RegressionTestRunner@2a265ea9</td></tr>
+<tr>
+<td title='runners.UITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.UITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.UITestRunner@6892b3b6</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@11392934</td></tr>
+<tr>
+<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.APITestRunner@46cdf8bd</td></tr>
+<tr>
+<td title='runners.UITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.UITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
+<td></td>
+<td>0</td>
+<td>runners.UITestRunner@6892b3b6</td></tr>
 <tr>
 <td title='runners.RegressionTestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.RegressionTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
 <td></td>
@@ -277,30 +131,10 @@ Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
 <td>0</td>
 <td>runners.RegressionTestRunner@2a265ea9</td></tr>
 <tr>
-<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
-<td></td>
-<td>2</td>
-<td>runners.APITestRunner@46cdf8bd</td></tr>
-<tr>
-<td title='runners.RegressionTestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.RegressionTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
-<td></td>
-<td>0</td>
-<td>runners.RegressionTestRunner@2a265ea9</td></tr>
-<tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a user successfully", "API Tests on Reqres"</td>
 <td></td>
 <td>0</td>
 <td>runners.TestRunner@11392934</td></tr>
-<tr>
-<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a user successfully", "API Tests on Reqres"</td>
-<td></td>
-<td>0</td>
-<td>runners.APITestRunner@46cdf8bd</td></tr>
-<tr>
-<td title='runners.APITestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.APITestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a user successfully", "API Tests on Reqres"</td>
-<td></td>
-<td>0</td>
-<td>runners.APITestRunner@46cdf8bd</td></tr>
 </table><p>
 </body>
 </html>

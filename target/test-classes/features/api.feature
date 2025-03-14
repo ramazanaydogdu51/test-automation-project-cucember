@@ -1,4 +1,4 @@
-@API @Regression @POST
+@APITest @RegressionTest
 Feature: API Tests on Reqres
 
 

@@ -1,8 +1,8 @@
 
- @Regression
+ @RegressionTest @UITest
 Feature: Amazon Web Testing
 
-  @UI
+
   Scenario: Open Amazon Home Page
     Given I open the "amazonhome" website
     Then I verify "amazonhome" website is correct

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T13:07:12 TRT" name="Surefire suite" finished-at="2025-03-13T13:07:56 TRT" duration-ms="44113">
+  <suite started-at="2025-03-14T18:28:12 TRT" name="Surefire suite" finished-at="2025-03-14T18:28:18 TRT" duration-ms="5798">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -11,24 +11,24 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-13T13:07:12 TRT" name="Surefire test" finished-at="2025-03-13T13:07:56 TRT" duration-ms="44113">
+    <test started-at="2025-03-14T18:28:12 TRT" name="Surefire test" finished-at="2025-03-14T18:28:18 TRT" duration-ms="5798">
       <class name="runners.APITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="setUpClass" finished-at="2025-03-13T13:07:12 TRT" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:12 TRT" name="setUpClass" finished-at="2025-03-14T18:28:13 TRT" duration-ms="203" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e66b498]]>
+                <![CDATA[org.testng.TestRunner@5bb7a59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="setupAllure" finished-at="2025-03-13T13:07:12 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:13 TRT" name="setupAllure" finished-at="2025-03-14T18:28:13 TRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:12 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:14 TRT" duration-ms="2471" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:13 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:15 TRT" duration-ms="2588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:14 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:15 TRT" duration-ms="290" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:15 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:15 TRT" duration-ms="287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:15 TRT" duration-ms="256" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:16 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:16 TRT" duration-ms="242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,177 +76,105 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="tearDown" finished-at="2025-03-13T13:07:15 TRT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:16 TRT" name="tearDown" finished-at="2025-03-14T18:28:16 TRT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-13T13:07:15 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:15 TRT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.APITestRunner@46cdf8bd]" started-at="2025-03-14T18:28:16 TRT" name="tearDownClass" finished-at="2025-03-14T18:28:16 TRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runners.APITestRunner -->
       <class name="runners.UITestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="setUpClass" finished-at="2025-03-13T13:07:40 TRT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:17 TRT" name="setUpClass" finished-at="2025-03-14T18:28:17 TRT" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e66b498]]>
+                <![CDATA[org.testng.TestRunner@5bb7a59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:55 TRT" duration-ms="14501" status="FAIL">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:17 TRT" name="setupAllure" finished-at="2025-03-14T18:28:17 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAllure -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:17 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:18 TRT" duration-ms="263" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Open Amazon Home Page"]]>
+                <![CDATA["Create a user successfully"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Amazon Web Testing"]]>
+                <![CDATA["API Tests on Reqres"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='twotabsearchtextbox'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22588, moz:profile: C:\Users\51ram\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 0205ace2-6c58-4796-8241-e99b8c4df08f
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at utils.UICommonLib.clickElement(UICommonLib.java:62)
-at stepDefinitions.AmazonSteps.iClick(AmazonSteps.java:78)
-at ✽.I click "HomePage" "searchBox"(file:///C:/Users/51ram/IdeaProjects/CucumberAmazonTest/src/test/resources/features/amazon.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:40 TRT" name="setupAllure" finished-at="2025-03-13T13:07:40 TRT" duration-ms="0" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:18 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:18 TRT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a user successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests on Reqres"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupAllure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:55 TRT" name="tearDown" finished-at="2025-03-13T13:07:56 TRT" duration-ms="835" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:18 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:18 TRT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a user successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Tests on Reqres"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:18 TRT" name="tearDown" finished-at="2025-03-14T18:28:18 TRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-13T13:07:56 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:56 TRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.UITestRunner@6892b3b6]" started-at="2025-03-14T18:28:18 TRT" name="tearDownClass" finished-at="2025-03-14T18:28:18 TRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runners.UITestRunner -->
       <class name="runners.RegressionTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="setUpClass" finished-at="2025-03-13T13:07:15 TRT" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:16 TRT" name="setUpClass" finished-at="2025-03-14T18:28:16 TRT" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e66b498]]>
+                <![CDATA[org.testng.TestRunner@5bb7a59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:24 TRT" duration-ms="9043" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open Amazon Home Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Amazon Web Testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'I verify product is correct or not' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then("I verify product is correct or not")
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I verify product is correct or not' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then("I verify product is correct or not")
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:15 TRT" name="setupAllure" finished-at="2025-03-13T13:07:15 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:16 TRT" name="setupAllure" finished-at="2025-03-14T18:28:16 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:24 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:24 TRT" duration-ms="278" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:16 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:16 TRT" duration-ms="245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,7 +190,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:24 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:25 TRT" duration-ms="317" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:16 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:16 TRT" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,7 +206,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:25 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:25 TRT" duration-ms="213" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:16 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:17 TRT" duration-ms="245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,112 +222,32 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:25 TRT" name="tearDown" finished-at="2025-03-13T13:07:28 TRT" duration-ms="3129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:17 TRT" name="tearDown" finished-at="2025-03-14T18:28:17 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-13T13:07:28 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:28 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RegressionTestRunner@2a265ea9]" started-at="2025-03-14T18:28:17 TRT" name="tearDownClass" finished-at="2025-03-14T18:28:17 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runners.RegressionTestRunner -->
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="setUpClass" finished-at="2025-03-13T13:07:28 TRT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="setUpClass" finished-at="2025-03-14T18:28:17 TRT" duration-ms="33" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e66b498]]>
+                <![CDATA[org.testng.TestRunner@5bb7a59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="setupAllure" finished-at="2025-03-13T13:07:28 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupAllure()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="setupAllure" finished-at="2025-03-14T18:28:17 TRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAllure -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:28 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="8626" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open Amazon Home Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Amazon Web Testing"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'I verify product is correct or not' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then("I verify product is correct or not")
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I verify product is correct or not' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Then("I verify product is correct or not")
-public void i_verify_product_is_correct_or_not() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="321" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:17 TRT" duration-ms="222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -415,7 +263,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="262" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:17 TRT" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,7 +279,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-13T13:07:37 TRT" duration-ms="211" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T18:28:17 TRT" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,11 +295,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:37 TRT" name="tearDown" finished-at="2025-03-13T13:07:40 TRT" duration-ms="3003" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="tearDown" finished-at="2025-03-14T18:28:17 TRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-13T13:07:40 TRT" name="tearDownClass" finished-at="2025-03-13T13:07:40 TRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@11392934]" started-at="2025-03-14T18:28:17 TRT" name="tearDownClass" finished-at="2025-03-14T18:28:17 TRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
