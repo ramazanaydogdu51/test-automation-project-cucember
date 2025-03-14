@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
@@ -235,16 +236,6 @@ public class UICommonLib {
 
     public static List<WebElement> getElements(WebDriver driver, By locator ) {
         try {
-            // JSON dosyasından locator'ı al
-          //  String locatorValue = JsonReader.getLocator(pageName, locatorKey);
-
-//            if (locatorValue == null) {
-//                log.error("❌ Hata: JSON içinde '{}' için locator bulunamadı!", locatorKey);
-//                return Collections.emptyList(); // Eğer locator bulunamazsa boş liste döndür
-//            }
-
-            // XPath veya CSS olup olmadığına karar ver
-            //By locator = locatorValue.startsWith("//") ? By.xpath(locatorValue) : By.cssSelector(locatorValue);
 
             List<WebElement> elements = driver.findElements(locator);
 
@@ -260,7 +251,151 @@ public class UICommonLib {
             return Collections.emptyList();
         }
     }
+    public static List<WebElement> getElementsV2(WebDriver driver, String pageName, String elementName ) {
+        try {
+           //  JSON dosyasından locator'ı al
+              String locator = JsonReader.getLocator(pageName, elementName);
 
+            if (locator == null) {
+                log.error("❌ Hata: JSON içinde '{}' için locator bulunamadı!", elementName);
+                return Collections.emptyList(); // Eğer locator bulunamazsa boş liste döndür
+            }
+
+            // XPath veya CSS olup olmadığına karar ver
+            By byLocator = locator.startsWith("//") || locator.startsWith("(") ? By.xpath(locator) : By.cssSelector(locator);
+
+
+            List<WebElement> elements = driver.findElements(byLocator);
+
+            if (elements.isEmpty()) {
+                log.warn("⚠️ Uyarı: '{}' için hiçbir element bulunamadı!", locator);
+            } else {
+                log.info("✅ '{}' için {} adet element bulundu.", locator, elements.size());
+            }
+
+            return elements;
+        } catch (Exception e) {
+            log.error("❌ Hata: '{}' elemanlarını alırken hata oluştu! Hata: {}", elementName, e.getMessage());
+            return Collections.emptyList();
+        }
+    }
+    public static WebElement getElement(WebDriver driver, By locator, int timeoutInSeconds) {
+        try {
+            log.info("🔍 Waiting for the element to become visible | Locator: {} | Timeout: {} seconds", locator.toString(), timeoutInSeconds);
+
+            // Wait for the element to be visible
+            UICommonLib.waitForElementToBeVisible(driver, locator, timeoutInSeconds);
+
+            log.info("✅ Element is now visible | Locator: {}", locator.toString());
+
+            WebElement element = driver.findElement(locator);
+            log.info("✅ Successfully located the element | Locator: {}", locator.toString());
+            return element;
+
+        } catch (TimeoutException e) {
+            log.error("⏳ Timeout Exception! The element did not become visible within the specified time | Locator: {} | Timeout: {} seconds", locator.toString(), timeoutInSeconds);
+            throw new RuntimeException("⏳ Timeout! Element not found within " + timeoutInSeconds + " seconds | Locator: " + locator.toString());
+
+        } catch (java.util.NoSuchElementException e) {
+            log.error("❌ No Such Element Exception! The element could not be found in the DOM | Locator: {}", locator.toString());
+            throw new RuntimeException("❌ No Such Element! Locator: " + locator.toString());
+
+        } catch (Exception e) {
+            log.error("❌ Unexpected error while locating the element | Locator: {} | Error: {}", locator.toString(), e.getMessage());
+            throw new RuntimeException("❌ Unexpected error while locating the element | Locator: " + locator.toString());
+        }
+    }
+    public static String getElementAttribute(WebDriver driver,By locator, String attribute, int timeoutInSeconds) {
+        try {
+            log.info("🔍 Attempting to retrieve attribute | Locator: {} | Attribute: {}", locator.toString(), attribute);
+
+            // Find the element and get the attribute value
+            WebElement element = getElement(driver,locator, timeoutInSeconds);
+            String attributeValue = element.getAttribute(attribute);
+
+            if (attributeValue == null) {
+                log.warn("⚠️ Attribute value is null! | Locator: {} | Attribute: {}", locator.toString(), attribute);
+                return "";
+            }
+
+            String trimmedValue = attributeValue.trim();
+            log.info("✅ Successfully retrieved attribute | Locator: {} | Attribute: {} | Value: {}", locator.toString(), attribute, trimmedValue);
+            return trimmedValue;
+
+        } catch (Exception e) {
+            log.error("❌ Error retrieving attribute! | Locator: {} | Attribute: {} | Error: {}", locator.toString(), attribute, e.getMessage());
+            throw new RuntimeException("❌ Failed to retrieve attribute! Locator: " + locator.toString() + " | Attribute: " + attribute);
+        }
+    }
+    public static String getElementText(WebElement element) {
+        if (element == null) {
+            throw new RuntimeException("❌ Element is null! Cannot retrieve text.");
+        }
+        return element.getText().trim();
+    }
+
+    public static void openWebsite(WebDriver driver, String url) {
+
+        log.info("🌍 Navigating to the website: {}", url);
+
+        String fullUrl = JsonReader.getUrl(url);
+        if (fullUrl != null) {
+            driver.get(fullUrl);
+            captureScreenshot(driver, fullUrl);
+            log.info("✅ Successfully opened the website: {}", fullUrl);
+        } else {
+            log.error("❌ Failed to open the website. URL not found in JSON: {}", url);
+            captureScreenshot(driver, fullUrl);
+            throw new RuntimeException("URL not found in JSON: " + url);
+        }
+    }
+
+    public static void verifyWebsiteUrl(WebDriver driver, String url) {
+        log.info("🔍 Verifying if the current website matches the expected URL...");
+
+        String actualUrl = driver.getCurrentUrl();
+        String expectedUrl = JsonReader.getUrl(url);
+
+        log.info("➡ Expected URL: {}", expectedUrl);
+        log.info("➡ Actual URL: {}", actualUrl);
+
+        if (actualUrl.equals(expectedUrl)) {
+            log.info("✅ The website URL is correct!");
+        } else {
+            log.error("❌ URL Mismatch! Expected: {}, but found: {}", expectedUrl, actualUrl);
+        }
+
+        Assert.assertEquals(actualUrl, expectedUrl, "The website URL does not match!");
+    }
+
+    public static WebElement clickElementByJson(WebDriver driver, String pageName, String elementName) {
+        log.info("Trying to click on: {} - {}", pageName, elementName);
+
+        // JSON'dan lokatörü al
+        String locator = JsonReader.getLocator(pageName, elementName);
+        if (locator != null) {
+            By byElement = By.xpath(locator); // XPath kullanılıyor
+            clickElement(driver, byElement, true, "Clicking " + pageName + " - " + elementName);
+            return driver.findElement(By.xpath(locator)); // Son tıklanan elementi döndür
+        } else {
+            throw new RuntimeException("Element not found in JSON: " + pageName + " - " + elementName);
+        }
+    }
+
+
+
+        public static void writeTextToLastClickedElement(WebElement lastClickedElement, String text) {
+
+            if (lastClickedElement != null) {
+                log.info("✍ Writing text '{}' in last clicked element", text);
+                lastClickedElement.clear();
+                lastClickedElement.sendKeys(text);
+                log.info("✅ Successfully wrote text: '{}'", text);
+            } else {
+                log.error("❌ No element was clicked before writing.");
+                throw new RuntimeException("No element was clicked before writing.");
+            }
+        }
 
 
 
