@@ -18,9 +18,9 @@ public class UITestRunner extends AbstractTestNGCucumberTests {
     @BeforeClass
     @Parameters({"runTest", "browser", "headless", "useProfile"})
     public void setUp(@Optional("true") String runTest,
-                      @Optional("chrome") String browser,
+                      @Optional("firefox") String browser,
                       @Optional("false") String headless,
-                      @Optional("false") String useProfile) {
+                      @Optional("true") String useProfile) {
 
         if (runTest.equalsIgnoreCase("false")) {
             throw new SkipException("Skipping UI Test as runTest=false");

@@ -1,5 +1,10 @@
 package utils;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.nio.file.Files;
@@ -50,5 +55,19 @@ public class JsonReader {
         }
         log.warn("⚠️ Config value not found: {}", key);
         return ""; // Return empty string instead of throwing an error
+    }
+    public static List<Integer> getIntValues() {
+        List<Integer> values = new ArrayList<>();
+        try (FileReader reader = new FileReader(CONFIG_PATH)) {
+            JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
+            JsonArray jsonArray = jsonObject.getAsJsonArray("values");
+
+            for (int i = 0; i < jsonArray.size(); i++) {
+                values.add(jsonArray.get(i).getAsNumber().intValue()); // Double -> Integer
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return values;
     }
 }
