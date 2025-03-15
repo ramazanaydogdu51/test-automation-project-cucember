@@ -3,11 +3,11 @@
 <suite name="Parallel Tests" parallel="tests" thread-count="1">
 
     <test name="UI Test - Chrome (Headless On/Off, Profile On/Off)">
-        <parameter name="runTest" value="false"/>  <!-- TESTİ ÇALIŞTIR: true, ÇALIŞTIRMA: false -->
+        <parameter name="runTest" value="true"/>  <!-- TESTİ ÇALIŞTIR: true, ÇALIŞTIRMA: false -->
         <parameter name="testType" value="UI"/>
         <parameter name="browser" value="chrome"/>
         <parameter name="headless" value="false"/>
-        <parameter name="useProfile" value="true"/>
+        <parameter name="useProfile" value="false"/>
         <classes>
             <class name="runners.UITestRunner"/>
         </classes>
@@ -18,7 +18,7 @@
         <parameter name="testType" value="UI"/>
         <parameter name="browser" value="firefox"/>
         <parameter name="headless" value="false"/>
-        <parameter name="useProfile" value="true"/>
+        <parameter name="useProfile" value="false"/>
         <classes>
             <class name="runners.UITestRunner"/>
         </classes>
